@@ -19,7 +19,7 @@ In this project we will understand the DOM and interact with it, we will learn a
   - [2. Estudios](#2-estudios)
   - [3. CS](#3-cs)
   - [4. Extra](#4-extra)
-- [Usage](#usage)
+- [Start your project](#start-your-project)
   - [Usage Dockerfile](#usage-dockerfile)
 - [Delivery](#delivery)
 
@@ -114,12 +114,16 @@ find all properties that have href (link to somewhere):
 2. Estudios
 
 ```
-> ----- : separator between items
->
-> ===== : separator between parts
->
-> 1. Title: Title of the section
 
+```bash
+# ----- : separator between items
+
+# ===== : separator between parts
+
+# 1. Title: Title of the section
+
+# use '-' if its a list
+```
 
 It will be possible to pass an argument to your app to specify which section to run, if no argument provided it will default to "run all parts"
 
@@ -140,7 +144,7 @@ python3 soup.py 3
 
 <br>
 
-- [ ] If for some reason the result exceeds 30 lines you will display `"Output exceeds 30 lines, sending output to: <logfile>"` and send the output to a text file inside logs/ , example format:
+- [ ] **NOTE** If for some reason the result exceeds 30 lines you will display `"Output exceeds 30 lines, sending output to: <logfile>"` and send the output to a text file inside logs/ , example format:
 
 ```bash
 $ python3 soup.py 1
@@ -201,7 +205,7 @@ using ["http://ufm.edu/Estudios"](http://ufm.edu/Estudios)
 - [ ] display ALL "Estudios" (Doctorados/Maestrias/Posgrados/Licenciaturas/Baccalaureus)
 - [ ] display from "leftbar" all &lt;li> items (4 in total)
 - [ ] get and display all available social media with its links (href) "class=social pull-right"
-- [ ] count all &lt;a> that have
+- [ ] count all &lt;a> (just display the count)
 
 
 ## 3. CS
@@ -211,15 +215,17 @@ using ["https://fce.ufm.edu/carrera/cs/"](https://fce.ufm.edu/carrera/cs/)
 - [ ] GET and display the href
 - [ ] Download the "FACULTAD de CIENCIAS ECONOMICAS" logo. (you need to obtain the link dynamically)
 - [ ] GET following &lt;meta>: "title", "description" ("og")
-- [ ] count all &lt;a>
+- [ ] count all &lt;a> (just display the count)
+- [ ] count all &lt;div> (just display the count)
 
 ## 4. Extra
 - [ ] Complete Dockerfile
 - [ ] Create README section for Dockerfile under [`Usage Dockerfile`](#usage-dockerfile)
+- [ ] Add CI to your own repo.
 
 
 ---
-# Usage
+# Start your project
 In order to start your project:
 - you **MUST** [fork](https://help.github.com/en/articles/fork-a-repo) this repository into **your own personal repo** in **github**
 - you will need to use git and commit every once in a while, every commit must have a meaningful message.
