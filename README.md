@@ -166,7 +166,7 @@ Universidad Francisco Marroquín
 
 > this log files will not be git tracked.
 
-
+---
 ## 1. Portal
 using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 
@@ -180,7 +180,7 @@ using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 - [ ] get hrefs of all &lt;img>
 - [ ] count all &lt;a>
 
----
+
 ### 1.1 Extra points
 
 - [ ]  From all (&lt;a>) Create a csv file (`logs/extra_as.csv`) with the following columns: Text, href
