@@ -1,6 +1,8 @@
 # web scrapping 101
 
-We will try to understand the DOM
+# Pre Reqs
+- [HTML](https://www.w3schools.com/html/html_basic.asp)
+- We will try to understand the [DOM](https://www.w3schools.com/whatis/whatis_htmldom.asp)
 
 ## pip
 pip is the python package manage, from the web:
@@ -40,4 +42,67 @@ There are other ways of achieving the same result but will leave those for later
 
 **requests:** will be use to make http requests (GET by default) and retrieve a html web page content
 
-**bs4:**
+**bs4:** is a Python library for pulling data out of HTML and XML files
+
+
+### Your project
+For every item here you will display:
+
+```bash
+1. Portal
+# item_title: <result>
+GET the title and print it: <result>
+---------------------------------------
+GET the Complete Address of UFM: <result>
+------------------------------------------
+.
+.
+.
+find all properties that have href (link to somewhere):
+- <result 1>
+- <result 2>
+- <result 3>
+
+
+```
+
+It will be possible to pass an argument to your app to specify which section to run, if no argument provided it will default to "run all parts"
+
+```bash
+# default to run all parts
+python3 soup.py
+
+# run part 1
+python3 soup.py 1
+
+# run part 2
+python3 soup.py 2
+
+# run part 3
+python3 soup.py 3
+```
+
+
+#### 1. Portal
+using "http://ufm.edu/Portal"
+
+- [ ] GET the title and print it
+- [ ] GET the Complete Address of UFM
+- [ ] GET the phone number and info email
+- [ ] GET all item that are part of the upper nav menu (id: menu-table)
+- [ ] find all properties that have href (link to somewhere)
+
+#### 2. Estudios
+- [ ] now navigate to  /Estudios (better if you obtain href from the DOM)
+- [ ] display all items from "topmenu" (8 in total)
+- [ ] display ALL "Estudios" (Doctorados/Maestrias/Posgrados/Licenciaturas/Baccalaureus)
+- [ ] display from "leftbar" all <li> items (4 in total)
+- [ ] get and display all available social media with its links (href) "class=social pull-right"
+
+#### 3. CS
+using "https://fce.ufm.edu/carrera/cs/"
+
+- [ ] GET title
+- [ ] GET and display the href
+- [ ] Download the "FACULTAD de CIENCIAS ECONOMICAS" logo. (you need to obtain the link dynamically)
+- [ ] GET following <meta>: "title", "description" ("og")
