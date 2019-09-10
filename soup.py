@@ -1,10 +1,14 @@
 #!/usr/bin/env python3
 from bs4 import BeautifulSoup
-import requests
+import requests,sys
 
 url="http://ufm.edu/Portal"
 # Make a GET request to fetch the raw HTML content
-html_content = requests.get(url).text
+try:
+    html_content = requests.get(url).text
+except:
+    print(f"unable to get {url}")
+    sys.exit(1)
 
 # Parse the html content, this is the Magic ;)
 soup = BeautifulSoup(html_content, "html.parser")
