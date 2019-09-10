@@ -18,7 +18,8 @@ In this project we will understand the DOM and interact with it, we will learn a
     - [1.1 Extra points](#11-extra-points)
   - [2. Estudios](#2-estudios)
   - [3. CS](#3-cs)
-  - [4. Extra](#4-extra)
+  - [4. Directorio](#4-directorio)
+  - [5. Extra](#5-extra)
 - [Start your project](#start-your-project)
   - [Usage Dockerfile](#usage-dockerfile)
 - [Delivery](#delivery)
@@ -218,7 +219,67 @@ using ["https://fce.ufm.edu/carrera/cs/"](https://fce.ufm.edu/carrera/cs/)
 - [ ] count all &lt;a> (just display the count)
 - [ ] count all &lt;div> (just display the count)
 
-## 4. Extra
+
+## 4. Directorio
+using ["https://www.ufm.edu/Directorio"](https://www.ufm.edu/Directorio)
+
+- [ ] Sort all emails alphabetically (`href="mailto:arquitectura@ufm.edu"`) in a list, dump it to logs/4directorio_emails.txt
+- [ ] Group in a JSON all rows that have `Same Address` (dont use Room number) as address, dump it to logs/4directorio_address.json
+
+
+```javascript
+{
+    "Edificio Academico":[
+        "Arquitectura",
+        "Ciencias Economicas",
+        .
+        .
+        .
+        "Crédito Educativo"
+    ],
+    "Centro Estudiantil":[
+        "Admisiones",
+        .
+        .
+        .
+         "Desarrollo"
+    ],
+    .
+    .
+    .
+}
+```
+
+- [ ] Try to correlate in a JSON Faculty Dean and Directors, and dump it to `logs/4directorio_deans.json`
+
+```javascript
+{
+    "Facultad de Arquitectura": {
+            "Dean/Director": "Roberto Quevedo",
+            "email": "rquevedo@ufm.edu",
+            "Phone Number": "2338-7709"
+        },
+    "Facultad de Ciencias Económicas": {
+        "Dean/Director": "Mónica Rio Nevado de Zelaya",
+        "email": "zelaya@ufm.edu",
+        "Phone Number": "2338-7723 2338-7724"
+    }
+    .
+    .
+    .
+}
+```
+
+- [ ] GET the directory of all 3 column table and generate a CSV with these columns (Entity,FullName, Email), and dump it to `logs/4directorio_3column_tables.csv`
+
+| Entity        	| FullName                	| Email            	|
+|---------------	|-------------------------	|------------------	|
+| Rector        	| Gabriel Calzada Álvarez 	| rectoria@ufm.edu 	|
+| Campus Madrid 	| Gonzalo Melián          	| gmelian@ufm.edu  	|
+| Alumni        	| Marcela Porta           	| alumni@ufm.edu   	|
+
+
+## 5. Extra
 - [ ] Complete Dockerfile
 - [ ] Create README section for Dockerfile under [`Usage Dockerfile`](#usage-dockerfile)
 - [ ] Add CI to your own repo.
@@ -255,4 +316,4 @@ Put your Docker build/run/etc commands here
 - You will send the response via miU
 - You will respond only with the URL of your git repo. (preferable git tags)
 - your name (username) MUST have commits in the git log.
-- it must compile!
+- it must compile & work!
