@@ -26,5 +26,5 @@ for i in nav_bar:
             print(div)
             menutable_list.append(div.strip())
 
-json_menutable={"menu-table":    menutable_list}
+json_menutable={f"{id}": menutable_list}
 print(json_menutable)

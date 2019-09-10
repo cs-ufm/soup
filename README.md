@@ -3,6 +3,8 @@
 
 In this project we will understand the DOM and interact with it, we will learn and assure HTML and some python best practices like requirements.txt and pip.
 
+---
+
 # TOC
 - [web scrapping 101](#web-scrapping-101)
 - [TOC](#toc)
@@ -22,7 +24,7 @@ In this project we will understand the DOM and interact with it, we will learn a
 - [Delivery](#delivery)
 
 
-
+---
 # Pre Reqs
 Go ahead and read these:
 
@@ -30,7 +32,7 @@ Go ahead and read these:
 - We will try to understand the [DOM](https://www.w3schools.com/whatis/whatis_htmldom.asp)
 
 
-
+---
 # Python Extras
 
 <details> <summary> pip  </summary>
@@ -77,7 +79,7 @@ There are other ways of achieving the same result but will leave those for later
 </p>
 </details>
 
-
+---
 # Web Scraping with bs4 and requests
 We will be using requests to GET the html and bs4 to parse it
 <br>
@@ -88,7 +90,7 @@ will be use to make http requests (GET by default) and retrieve a html web page 
 ## [**bs4:**](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 is a Python library for pulling data out of HTML and XML files
 
-
+---
 # Your project
 For every item here you must display the results in a very understandable way:
 
@@ -168,7 +170,8 @@ using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 - [ ] GET the phone number and info email
 - [ ] GET all item that are part of the upper nav menu (id: menu-table)
 - [ ] find all properties that have href (link to somewhere)
-- [ ] GET href of "UFMail" button and "MiU" button.
+- [ ] GET href of "UFMail" button
+- [ ] GET href "MiU" button.
 - [ ] get hrefs of all &lt;img>
 - [ ] count all &lt;a>
 
@@ -211,9 +214,11 @@ using ["https://fce.ufm.edu/carrera/cs/"](https://fce.ufm.edu/carrera/cs/)
 - [ ] count all &lt;a>
 
 ## 4. Extra
-- [ ] Complete Dockerfile 
+- [ ] Complete Dockerfile
 - [ ] Create README section for Dockerfile under [`Usage Dockerfile`](#usage-dockerfile)
 
+
+---
 # Usage
 In order to start your project:
 - you **MUST** [fork](https://help.github.com/en/articles/fork-a-repo) this repository into **your own personal repo** in **github**
@@ -237,7 +242,7 @@ In order to start your project:
 Put your Docker build/run/etc commands here
 ```
 
-
+---
 # Delivery
 - FORK IT!!
 - This will be developed individually
