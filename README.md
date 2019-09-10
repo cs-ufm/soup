@@ -1,6 +1,27 @@
+
 # web scrapping 101
 
 In this project we will understand the DOM and interact with it, we will learn and assure HTML and some python best practices like requirements.txt and pip.
+
+# TOC
+- [web scrapping 101](#web-scrapping-101)
+- [TOC](#toc)
+- [Pre Reqs](#pre-reqs)
+- [Python Extras](#python-extras)
+- [Web Scraping with bs4 and requests](#web-scraping-with-bs4-and-requests)
+  - [**requests:**](#requests)
+  - [**bs4:**](#bs4)
+- [Your project](#your-project)
+  - [1. Portal](#1-portal)
+    - [1.1 Extra points](#11-extra-points)
+  - [2. Estudios](#2-estudios)
+  - [3. CS](#3-cs)
+  - [4. Extra](#4-extra)
+- [Usage](#usage)
+  - [Usage Dockerfile](#usage-dockerfile)
+
+
+
 # Pre Reqs
 Go ahead and read these:
 
@@ -57,12 +78,13 @@ There are other ways of achieving the same result but will leave those for later
 
 
 # Web Scraping with bs4 and requests
-
-#### [**requests:**](https://2.python-requests.org/en/master/)
+We will be using requests to GET the html and bs4 to parse it
+<br>
+## [**requests:**](https://2.python-requests.org/en/master/)
 
 will be use to make http requests (GET by default) and retrieve a html web page content
 
-#### [**bs4:**](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
+## [**bs4:**](https://www.crummy.com/software/BeautifulSoup/bs4/doc/)
 is a Python library for pulling data out of HTML and XML files
 
 
@@ -134,8 +156,10 @@ Date of generation: Mon Sep  9 22:58:30 CST 2019
 Universidad Francisco Marroquín
 ```
 
+> this log files will not be git tracked.
 
-#### 1. Portal
+
+## 1. Portal
 using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 
 - [ ] GET the title and print it
@@ -147,7 +171,7 @@ using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 - [ ] count all &lt;a>
 
 ---
-##### 1.1 Extra points
+### 1.1 Extra points
 
 - [ ]  From all (&lt;a>) Create a csv file (`logs/extra_as.csv`) with the following columns: Text, href
 
@@ -164,7 +188,7 @@ using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 <br>
 
 
-#### 2. Estudios
+## 2. Estudios
 using ["http://ufm.edu/Estudios"](http://ufm.edu/Estudios)
 
 - [ ] now navigate to  /Estudios (better if you obtain href from the DOM)
@@ -175,7 +199,7 @@ using ["http://ufm.edu/Estudios"](http://ufm.edu/Estudios)
 - [ ] count all &lt;a> that have
 
 
-#### 3. CS
+## 3. CS
 using ["https://fce.ufm.edu/carrera/cs/"](https://fce.ufm.edu/carrera/cs/)
 
 - [ ] GET title
@@ -184,7 +208,9 @@ using ["https://fce.ufm.edu/carrera/cs/"](https://fce.ufm.edu/carrera/cs/)
 - [ ] GET following &lt;meta>: "title", "description" ("og")
 - [ ] count all &lt;a>
 
-
+## 4. Extra
+- [ ] Complete Dockerfile 
+- [ ] Create README section for Dockerfile under [`Usage Dockerfile`](#usage-dockerfile)
 
 # Usage
 In order to start your project:
@@ -203,3 +229,8 @@ In order to start your project:
     ```
 
 - [x] everytime you complete an "item" make sure to mark it as done [x]
+
+## Usage Dockerfile
+```bash
+Put your Docker build/run/etc commands here
+```
