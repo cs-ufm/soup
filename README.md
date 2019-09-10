@@ -8,7 +8,7 @@ In this project we will understand the DOM and interact with it, we will learn a
 # TOC
 - [web scrapping 101](#web-scrapping-101)
 - [TOC](#toc)
-- [Pre Reqs](#pre-reqs)
+- [Pre Requisites](#pre-requisites)
 - [Python Extras](#python-extras)
 - [Web Scraping with bs4 and requests](#web-scraping-with-bs4-and-requests)
   - [**requests:**](#requests)
@@ -26,7 +26,7 @@ In this project we will understand the DOM and interact with it, we will learn a
 
 
 ---
-# Pre Reqs
+# Pre Requisites
 Go ahead and read these:
 
 - [HTML](https://www.w3schools.com/html/html_basic.asp)
