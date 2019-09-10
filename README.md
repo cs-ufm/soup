@@ -46,7 +46,7 @@ pip is the python package manage, from the web:
 </details>
 
 
-<details> <summary>  requirements.tx  </summary>
+<details> <summary>  requirements.txt  </summary>
 <p>
 “Requirements files” are files containing a list of items to be installed using pip install like so:
 
@@ -297,7 +297,7 @@ In order to start your project:
   # clone
   git clone <your own personal repo URL>
   # install dependencies
-  pip install -r requirements
+  pip install -r requirements.txt
   # run it
   python soup.py
   # or
