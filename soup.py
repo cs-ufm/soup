@@ -18,3 +18,5 @@ soup = BeautifulSoup(html_content, "html.parser")
 
 print(soup.title)
 print(soup.title.string)
+
+

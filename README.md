@@ -168,6 +168,7 @@ using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 - [ ] GET the phone number and info email
 - [ ] GET all item that are part of the upper nav menu (id: menu-table)
 - [ ] find all properties that have href (link to somewhere)
+- [ ] GET href of "UFMail" button and "MiU" button.
 - [ ] get hrefs of all &lt;img>
 - [ ] count all &lt;a>
 
