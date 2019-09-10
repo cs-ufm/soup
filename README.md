@@ -19,6 +19,7 @@ In this project we will understand the DOM and interact with it, we will learn a
   - [4. Extra](#4-extra)
 - [Usage](#usage)
   - [Usage Dockerfile](#usage-dockerfile)
+- [Delivery](#delivery)
 
 
 
@@ -234,3 +235,12 @@ In order to start your project:
 ```bash
 Put your Docker build/run/etc commands here
 ```
+
+
+# Delivery
+- FORK IT!!
+- This will be developed individually
+- You will send the response via miU
+- You will respond only with the URL of your git repo. (preferable git tags)
+- your name (username) MUST have commits in the git log.
+- it must compile!
