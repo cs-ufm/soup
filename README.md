@@ -319,3 +319,4 @@ Put your Docker build/run/etc commands here
 - You will respond only with the URL of your git repo. (preferable git tags)
 - your name (username) MUST have commits in the git log.
 - it must compile & work!
+- READ all README.me first
