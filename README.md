@@ -1,6 +1,8 @@
 # web scrapping 101
 
 # Pre Reqs
+Go ahead and read these:
+
 - [HTML](https://www.w3schools.com/html/html_basic.asp)
 - We will try to understand the [DOM](https://www.w3schools.com/whatis/whatis_htmldom.asp)
 
@@ -24,16 +26,17 @@ Requirements are meant for (but not limited to):
     pip install -r requirements.txt
     ```
 2. Requirements files are used to force pip to properly resolve dependencies. As it is now, pip doesn’t have true dependency resolution, but instead simply uses the first specification it finds for a project. E.g. if pkg1 requires pkg3>=1.0 and pkg2 requires pkg3>=1.0,<=2.0, and if pkg1 is resolved first, pip will only use pkg3>=1.0, and could easily end up installing a version of pkg3 that conflicts with the needs of pkg2. To solve this problem, you can place pkg3>=1.0,<=2.0 (i.e. the correct specification) into your requirements file directly along with the other top level requirements
-```markdown
-pkg1
-pkg2
-pkg3>=1.0,<=2.0
-```
+    ```markdown
+    pkg1
+    pkg2
+    pkg3>=1.0,<=2.0
+    ```
+
 3. Requirements files are used to force pip to install an alternate version of a sub-dependency. For example, suppose ProjectA in your requirements file requires ProjectB, but the latest version (v1.3) has a bug, you can force pip to accept earlier versions like so:
-```markdown
-ProjectA
-ProjectB<1.3
-```
+    ```markdown
+    ProjectA
+    ProjectB<1.3
+    ```
 
 
 There are other ways of achieving the same result but will leave those for later.
@@ -106,3 +109,9 @@ using "https://fce.ufm.edu/carrera/cs/"
 - [ ] GET and display the href
 - [ ] Download the "FACULTAD de CIENCIAS ECONOMICAS" logo. (you need to obtain the link dynamically)
 - [ ] GET following <meta>: "title", "description" ("og")
+
+
+# Usage
+In order to start your project:
+- you **MUST** [fork](https://help.github.com/en/articles/fork-a-repo) this repository into **your own personal repo** in **github**
+- you will need to use git and commit every once in a while, every commit must have a meaningful message.
