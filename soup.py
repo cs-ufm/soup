@@ -19,6 +19,6 @@ soup = BeautifulSoup(html_content, "html.parser")
 print(soup.title)
 print(soup.title.string)
 
-for div in soup.find_all("div"):
+for div in soup.find_all("img"):
     print(div)
     print("--------------------------")
