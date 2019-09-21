@@ -1,7 +1,7 @@
 from bs4 import BeautifulSoup
 import requests,sys
 
-class inspect_html:
+class inspectHtml:
 
     def parser(self):
         try:
@@ -12,5 +12,5 @@ class inspect_html:
 
         self.soup = BeautifulSoup(self.html_content, "html.parser")
 
-    def url_portal(self):
+    def urlPortal(self):
         self.urlportal == "http://ufm.edu/Portal"

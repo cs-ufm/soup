@@ -171,7 +171,7 @@ Universidad Francisco Marroquín
 ## 1. Portal
 using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 
-- [ ] GET the title and print it
+- [x] GET the title and print it
 - [ ] GET the Complete Address of UFM
 - [ ] GET the phone number and info email
 - [ ] GET all item that are part of the upper nav menu (id: menu-table)

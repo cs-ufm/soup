@@ -1,5 +1,6 @@
 from bs4 import BeautifulSoup
 import requests,sys
+from inspectHtml import inspectHtml
 
 class portal:
 
@@ -14,35 +15,34 @@ class portal:
     # Parse the html content, this is the Magic ;)
     soup = BeautifulSoup(html_content, "html.parser")
 
-    def get_title(self):
-        self.title == portal.soup.title.string
-        return print(f"GET the title and print it: {self.title} ")
+    def getTitle(self):
+        self.title == inspectHtml.soup.title.string
 
-    def get_address(self):
+    def getAddress(self):
         return print("dir")
 
-    def get_phone(self):
+    def getPhone(self):
         return print("phone")
 
-    def get_email(self):
+    def getEmail(self):
         return print("email")
 
-    def get_nav_menu(self):
+    def getNavMenu(self):
         return print("nav")
 
-    def find_href(self):
+    def findHref(self):
         return print("href")
 
-    def get_href_UFMbutton(self):
+    def getHrefUFMbutton(self):
         return print("UFMbutton")
 
-    def get_href_MIU(self):
+    def getHrefMIU(self):
         return ("MiU")
 
-    def get_href_img(self):
+    def getHrefImg(self):
         return ("img")
 
-    def count_a(self):
+    def countA(self):
         return ("a")
 
     MY_NAME = "Abner"
@@ -51,7 +51,7 @@ class portal:
     print("="*60)
 
     print("1. PORTAL")
-    get_title(title)
+    getTitle()
     print("-"*60)
 
     print(f"")

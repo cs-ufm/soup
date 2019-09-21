@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 from bs4 import BeautifulSoup
-import requests,sys,csv,json
+import requests,sys
+import csv
+import json
 
 url="http://ufm.edu/Portal"
 # Make a GET request to fetch the raw HTML content

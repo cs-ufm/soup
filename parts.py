@@ -1,21 +1,21 @@
 class Parts:
 
 
-    def part_one(self):
-        return print("one")
+    def partOne(self):
+        return self.urlToParse == "http://ufm.edu/Portal"
 
-    def part_two(self):
+    def partTwo(self):
         return print("two")
 
-    def part_three(self):
+    def partThree(self):
         return print("three")
 
-    def part_four(self):
+    def partFour(self):
         return print("four")
 
     partes = {
-        1 == part_one(),
-        2 == part_two(),
-        3 == part_three(),
-        4 == part_four()
+        1 == partOne(),
+        2 == partTwo(),
+        3 == partThree(),
+        4 == partFour()
     }

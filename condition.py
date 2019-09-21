@@ -1,2 +1,7 @@
 class condition:
-    pass
+
+    def checkOutputExceeds(self):
+        pass
+
+    def returnOutputExceeds(self):
+        pass
