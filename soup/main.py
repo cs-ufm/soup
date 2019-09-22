@@ -43,12 +43,12 @@ def printResult(result):
 
     result.insert(0, "Enrique Andres Bolanos Reyes")
 
-    if len(result) > 30:
+    #if len(result) > 30:
         #method to print result in file
-        pass
-    else:
-        for i in result:
-            print(i)
+        #pass
+    #else:
+    for i in result:
+        print(i)
 
 #main method in which I get the args from the running process
 if __name__ == "__main__":

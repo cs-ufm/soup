@@ -3,6 +3,7 @@
 #import requests,sys,csv,json
 
 #Portal class, all the requirements of the phase 1 are met here
+import csv
 class Portal:
     def __init__(self, soup):
         self.soup = soup
@@ -36,6 +37,43 @@ class Portal:
         result.append(f"GET all item that are part of the upper nav menu (id: menu-table): ")
         for i in soup.find(id="menu-table").find_all(class_="menu-key"):
             result.append("-"+i.text.strip())
+        result.append("---------------------------------------")   
+
+        #find all a that has href to somewhere
+        result.append(f"find all properties that have href (link to somewhere)")
+        soup.find_all("a")
+        for i in soup.find_all(attrs={"href":True}):
+            if i.text != "":
+                result.append("-"+i.name.strip()+": "+i.text.strip())
+        result.append("---------------------------------------")
+                
+        #get href ufmail
+        result.append(f"GET href of \"UFMail\" button: {soup.find(id='ufmail_')['href']}")
+        result.append("---------------------------------------")
+
+        #get href miu
+        result.append(f"GET href \"MiU\" button: {soup.find(id='miu_')['href']}")
+        result.append("---------------------------------------")
+
+        #get all src for all imgs
+        result.append(f"GET hrefs of all <img>:")
+        soup.find_all("img")
+        for i in soup.find_all(attrs={"src":True}):
+            result.append("-" + i['src'])
+        result.append("---------------------------------------")
+
+        #count all a
+        result.append(f"count all <a>: {len(soup.find_all('a'))}")
+        result.append("---------------------------------------")       
+
+        #extra
+        with open('../logs/extra_as.csv', 'w+') as csvfile:
+            filewriter = csv.writer(csvfile, delimiter=',',
+                                    quotechar='|', quoting=csv.QUOTE_MINIMAL)
+            filewriter.writerow(['Text','href'])
+            for i in soup.find_all('a'):
+                filewriter.writerow([i.text, i["href"]])
+
 
         return result
 
