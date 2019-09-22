@@ -31,6 +31,12 @@ class Portal:
         #get the pone number and email
         result.append(f"GET the phone number and info email: {address[1].a.text} - {address[1].find_all('a')[1].text}")
         result.append("---------------------------------------")   
+
+        #get all items that are from (id: menu-table)
+        result.append(f"GET all item that are part of the upper nav menu (id: menu-table): ")
+        for i in soup.find(id="menu-table").find_all(class_="menu-key"):
+            result.append("-"+i.text.strip())
+
         return result
 
     
