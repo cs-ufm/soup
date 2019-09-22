@@ -15,9 +15,22 @@ class Portal:
     #the method that actually make every parameter from Portal section
     def run(self, soup):
         result = []
-        print(soup.title)
-        print(soup.title.string)
-        
+        #print(soup.title)
+        #print(soup.title.string)
+
+        #get the title
+        result.append(f"GET the title and print it: {soup.title.string}")
+        result.append("---------------------------------------")
+
+        #get the complete address
+        footer = soup.find(id="footer")
+        address = footer.find_all("div", class_="span4")
+        result.append(f"GET the Complete Address of UFM: {address[0].strong.string + address[0].a.text}")
+        result.append("---------------------------------------")        
+
+        #get the pone number and email
+        result.append(f"GET the phone number and info email: {address[1].a.text} - {address[1].find_all('a')[1].text}")
+        result.append("---------------------------------------")   
         return result
 
     

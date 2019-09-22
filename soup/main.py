@@ -24,23 +24,24 @@ def main(args):
 
 #portal method that instances the Portal class and run it
 def portal(result):
-    result.insert(0, "=============================")
-    result.insert(0, "1. Portal")
+    res = []
+    res.append("=============================")
+    res.append("1. Portal")
     portalSoup = request.makeGet("http://ufm.edu/Portal")
-    portal = Portal(portalSoup)
-    portalArray = portal.init()
-    print(portalArray)
-    return result
+    por = Portal(portalSoup)
+    portalArray = por.init()
+    #print(portalArray)
+    res = res + portalArray
+    return res
 
 #method defined if no args set
 def runAll(result):
-    result = result + portal(result)
+    result += portal(result)
     return result
-
 #method to print results 
 def printResult(result):
 
-    result = ["Enrique Andres Bolanos Reyes", *result]
+    result.insert(0, "Enrique Andres Bolanos Reyes")
 
     if len(result) > 30:
         #method to print result in file
