@@ -40,11 +40,16 @@ class Portal:
         result.append("---------------------------------------")   
 
         #find all a that has href to somewhere
-        result.append(f"find all properties that have href (link to somewhere)")
+        result.append(f"find all properties that have href (link to somewhere): Output exceeds 30 lines, sending output to: logs/1portal_find_all_properties_with_href.txt")
         soup.find_all("a")
-        for i in soup.find_all(attrs={"href":True}):
-            if i.text != "":
-                result.append("-"+i.name.strip()+": "+i.text.strip())
+        f = open("../logs/1portal_find_all_properties_with_href.txt","w+")
+        if(len(soup.find_all(attrs={"href":True})) > 30):
+            for i in soup.find_all(attrs={"href":True}):
+                if i.text != "":
+                    f.writelines("-"+i.name.strip()+": "+i.text.strip()+"%d\r\n")
+        else:
+            result.append("-"+i.name.strip()+": "+i.text.strip())
+
         result.append("---------------------------------------")
                 
         #get href ufmail
@@ -56,9 +61,13 @@ class Portal:
         result.append("---------------------------------------")
 
         #get all src for all imgs
-        result.append(f"GET hrefs of all <img>:")
+        result.append(f"GET hrefs of all <img>: Output exceeds 30 lines, sending output to: logs/1portal_get_hrefs_all_img.txt")
         soup.find_all("img")
-        for i in soup.find_all(attrs={"src":True}):
+        f = open("../logs/1portal_get_hrefs_all_img.txt","w+")
+        if len(soup.find_all(attrs={"src":True})) > 30:
+            for i in soup.find_all(attrs={"src":True}):
+                f.writelines("-" + i['src']+"%d\r\n")
+        else:
             result.append("-" + i['src'])
         result.append("---------------------------------------")
 
