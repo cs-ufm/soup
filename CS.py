@@ -5,7 +5,7 @@ import os
 import shutil
 
 class CS:
-    url="http://ufm.edu/Estudios"
+    url= "https://fce.ufm.edu/carrera/cs/"
     # Make a GET request to fetch the raw HTML content
     try:
         html_content = requests.get(url).text
@@ -40,9 +40,19 @@ class CS:
         #self.titles = portal.soup.title.string
         return print(f"GET the title and print it: <{self.titles}>")
 
+    def findHrefCS(self):
+        self.nameFunction = "find_all_properties_that_have_href_CS"
+        hrefs = ""
+        for href in self.soup.find_all(href=True):
+            hrefs += f" - {href}\n"
+        self.myhrefs = self.checkIfThirty(hrefs, self.nameFunction)
+        return(f"GET the href and print it: {self.myhrefs}")
+
 print("3. CS")
 print("-"*60)
 csazo = CS()
 csazo.getTitle()
+print("-"*60)
+csazo.findHrefCS()
 print("-"*60)
 
