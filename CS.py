@@ -29,7 +29,7 @@ class CS:
     def checkIfThirty(self, lines, func):
         if self.getCheckIfThirty(lines):
             #self.logError(lines)
-            self.nameOfOutputLogFile = f"1portal_{func}.txt"
+            self.nameOfOutputLogFile = f"3CS_{func}.txt"
             self.logFileWriter(lines, self.nameOfOutputLogFile)
             return f"Output exceeds 30 lines, sending output to: {self.nameOfOutputLogFile}"
         else:
