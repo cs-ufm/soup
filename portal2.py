@@ -77,6 +77,17 @@ class portal:
                 linkButtonMail = a.get('href')
         return print(f"GET href of UFMail button: < {linkButtonMail} >")
 
+    def getMiUButton(self):
+        self.nameFunction = "GET_href_of_MiU_button"
+        #for a in self.soup.find_all('a'):
+        #    if a.text == "UFMAil":
+        #        self.linkButtonMail = a.get('href')
+        #return print(f"Get href of UFMail Button: <{self.linkButtonMail}>")
+        for a in self.soup.find_all('a'):
+            if (a.text == "MiU"):
+                linkButtonMiU = a.get('href')
+        return print(f"GET href of MiU button: < {linkButtonMiU} >")
+
 
 portalazo = portal()
 
@@ -89,4 +100,6 @@ print("-"*60)
 #portalazo.findHref()
 print("-"*60)
 portalazo.getUFMMailButton()
+print("-"*60)
+portalazo.getMiUButton()
 print("-"*60)
