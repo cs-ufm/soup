@@ -1,47 +1,129 @@
+#!/usr/bin/env python3
 from bs4 import BeautifulSoup
-import requests,sys
-from inspectHtml import inspectHtml
+import requests,sys, csv, json, time
+import os
+import shutil
 
-class portal(inspectHtml):
+class portal:
+    url="http://ufm.edu/Portal"
+    # Make a GET request to fetch the raw HTML content
+    try:
+        html_content = requests.get(url).text
+    except:
+        print(f"unable to get {url}")
+        sys.exit(1)
+
+    # Parse the html content, this is the Magic ;)
+    soup = BeautifulSoup(html_content, "html.parser")
+
+    def logFileWriter(self, lines, nameOfFile):
+        file = open(f"{nameOfFile}", "w")
+        file.write(lines)
+        file.close()
+        shutil.move(f'{nameOfFile}', 'logs')
+
+    def getCheckIfThirty(self, lines):
+        return (len(lines.split('\n')) > 30)
+
+    def checkIfThirty(self, lines, func):
+        if self.getCheckIfThirty(lines):
+            #self.logError(lines)
+            self.nameOfOutputLogFile = f"1portal_{func}.txt"
+            self.logFileWriter(lines, self.nameOfOutputLogFile)
+            return f"Output exceeds 30 lines, sending output to: {self.nameOfOutputLogFile}"
+        else:
+            return f"{lines}"
 
     def getTitle(self):
-        title = self.soup.title.string
-        return title
+        self.nameFunction = "GET_the_title_and_print_it"
+        self.titles = self.checkIfThirty(portal.soup.title.string, self.nameFunction)
+        #self.titles = portal.soup.title.string
+        return print(f"GET the title and print it: <{self.titles}>")
+
+    variables = soup.find_all('a', href=True)
 
     def getAddress(self):
-        addres = self.soup.find("a", {"href": "#myModal"})
-        return addres
 
-    def getPhone(self):
-        return print("phone")
+        self.nameFunction = "GET_the_Complete_Address_of_UFM"
+        self.address = self.checkIfThirty(self.variables[291].text, self.nameFunction)
+        return print(f"GET the Complete Address of UFM: <{self.address}>")
 
-    def getEmail(self):
-        return print("email")
+    def getPhoneEmail(self):
+        self.nameFunction = "GET_the_phone_number_and_info_email"
+        self.phone = self.checkIfThirty(self.variables[292].text, self.nameFunction)
+        self.email = self.checkIfThirty(self.variables[293].text, self.nameFunction)
+        return print(f"GET the phone: <{self.phone}> and email <{self.email}>")
 
-    def getNavMenu(self):
-        return print("nav")
+    def getUpenNavElements(self):
+        self.nameFunction = "GET_all_item_that_are_part_of_the_upper_nav_menu"
+        navBarMenu = self.soup.find_all("table", {"id": f"menu-table"})
+        for elements in navBarMenu:
+            for subelement in elements.find_all("div"):
+                div = subelement.string
+                if div is not None:
+                    div = str(div).strip()
+                    print(f"- {div}")
 
     def findHref(self):
-        return print("href")
+        self.nameFunction = "find_all_properties_that_have_href "
+        hrefs = ""
+        for href in self.soup.find_all(href=True):
+            hrefs += f" - {href}\n"
+        self.myhrefs = self.checkIfThirty(hrefs, self.nameFunction)
+        return(f"GET the href and print it: {self.myhrefs}")
+        #return print(f"find all properties that have href <{self.hrefs}>")
 
-    def getHrefUFMbutton(self):
-        return print("UFMbutton")
 
-    def getHrefMIU(self):
-        return ("MiU")
+
+    def getUFMMailButton(self):
+        self.nameFunction = "GET_href_of_UFMail_button"
+        #for a in self.soup.find_all('a'):
+        #    if a.text == "UFMAil":
+        #        self.linkButtonMail = a.get('href')
+        #return print(f"Get href of UFMail Button: <{self.linkButtonMail}>")
+        for a in self.soup.find_all('a'):
+            if (a.text == "UFMail"):
+                linkButtonMail = a.get('href')
+        return print(f"GET href of UFMail button: < {linkButtonMail} >")
+
+    def getMiUButton(self):
+        self.nameFunction = "GET_href_of_MiU_button"
+        #for a in self.soup.find_all('a'):
+        #    if a.text == "UFMAil":
+        #        self.linkButtonMail = a.get('href')
+        #return print(f"Get href of UFMail Button: <{self.linkButtonMail}>")
+        for a in self.soup.find_all('a'):
+            if (a.text == "MiU"):
+                linkButtonMiU = a.get('href')
+        return print(f"GET href of MiU button: < {linkButtonMiU} >")
 
     def getHrefImg(self):
-        return ("img")
+        for img in self.soup.find_all('a'):
+            x = len(img.find_all('img'))
+            if (x > 0):
+                print("- " + img.get('href'))
 
     def countA(self):
-        return ("a")
+        self.countAllA = len(self.soup.find_all('a', href=True))
+        return print(f"Count all <a>: {self.countAllA}")
 
-    def run(self):
-        self.parser()
 
-        title = self.getTitle().text
-        print(f"Get the title and print it: {title}")
+portalazo = portal()
 
-        address = self.getAddress().text
-        print(f"Get the Addres and print it: {address}")
-
+portalazo.getTitle()
+print("-"*60)
+portalazo.getAddress()
+print("-"*60)
+portalazo.getPhoneEmail()
+print("-"*60)
+portalazo.getUpenNavElements()
+print("-"*60)
+portalazo.findHref()
+print("-"*60)
+portalazo.getUFMMailButton()
+print("-"*60)
+portalazo.getMiUButton()
+print("-"*60)
+portalazo.getHrefImg()
+print("-"*60)
+portalazo.countA()
