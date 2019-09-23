@@ -38,10 +38,27 @@ class portal:
         #self.titles = portal.soup.title.string
         return print(f"GET the title and print it: <{self.titles}>")
 
+    variables = soup.find_all('a', href=True)
+
+    def getAddress(self):
+
+        self.nameFunction = "GET_the_Complete_Address_of_UFM"
+        self.address = self.checkIfThirty(self.variables[291].text, self.nameFunction)
+        return print(f"GET the Complete Address of UFM: <{self.address}>")
+
+    def getPhoneEmail(self):
+        self.nameFunction = "GET_the_phone_number_and_info_email"
+        self.phone = self.checkIfThirty(self.variables[292].text, self.nameFunction)
+        self.email = self.checkIfThirty(self.variables[293].text, self.nameFunction)
+        return print(f"GET the phone: <{self.phone}> and email <{self.email}>")
+
+
 
 portalazo = portal()
 
-print("1. Portal")
-print(" ")
 portalazo.getTitle()
-print("---------------------------------------")
+print("-"*60)
+portalazo.getAddress()
+print("-"*60)
+portalazo.getPhoneEmail()
+print("-"*60)
