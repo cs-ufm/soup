@@ -50,7 +50,14 @@ class estudios:
                     div = str(div).strip()
                     print(f"- {div}")
 
+    def getEstudios(self):
+        self.nameFunction = "display_ALL_Estudios"
+        for todosEstudios in self.soup.findAll('div', {'class': 'estudios'}):
+            print("- " + todosEstudios.text)
+
 estudiazo = estudios()
 estudiazo.getTitle()
 print("-"*60)
 estudiazo.getUpenTopElements()
+print("-"*60)
+estudiazo.getEstudios()
