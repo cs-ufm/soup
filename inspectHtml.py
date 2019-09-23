@@ -3,7 +3,10 @@ import requests,sys
 
 class inspectHtml:
 
+    #url = "http://ufm.edu/Portal"
+
     def parser(self):
+        self.url = "http://ufm.edu/Portal"
         try:
             self.html_content = requests.get(self.url).text
         except:
@@ -12,5 +15,8 @@ class inspectHtml:
 
         self.soup = BeautifulSoup(self.html_content, "html.parser")
 
-    def urlPortal(self):
-        self.urlportal == "http://ufm.edu/Portal"
+    def start(self):
+        pass
+
+  #  def urlPortal(self):
+   #     self.urlportal == "http://ufm.edu/Portal"

@@ -2,24 +2,15 @@ from bs4 import BeautifulSoup
 import requests,sys
 from inspectHtml import inspectHtml
 
-class portal:
-
-    url="http://ufm.edu/Portal"
-    # Make a GET request to fetch the raw HTML content
-    try:
-        html_content = requests.get(url).text
-    except:
-        print(f"unable to get {url}")
-        sys.exit(1)
-
-    # Parse the html content, this is the Magic ;)
-    soup = BeautifulSoup(html_content, "html.parser")
+class portal(inspectHtml):
 
     def getTitle(self):
-        self.title == inspectHtml.soup.title.string
+        title = self.soup.title.string
+        return title
 
     def getAddress(self):
-        return print("dir")
+        addres = self.soup.find("a", {"href": "#myModal"})
+        return addres
 
     def getPhone(self):
         return print("phone")
@@ -45,13 +36,12 @@ class portal:
     def countA(self):
         return ("a")
 
-    MY_NAME = "Abner"
-    print("="*60)
-    print(f"\t\t|| MY name is {MY_NAME} ||")
-    print("="*60)
+    def run(self):
+        self.parser()
 
-    print("1. PORTAL")
-    getTitle()
-    print("-"*60)
+        title = self.getTitle().text
+        print(f"Get the title and print it: {title}")
 
-    print(f"")
+        address = self.getAddress().text
+        print(f"Get the Addres and print it: {address}")
+
