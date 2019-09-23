@@ -55,9 +55,17 @@ class estudios:
         for todosEstudios in self.soup.findAll('div', {'class': 'estudios'}):
             print("- " + todosEstudios.text)
 
+    def displayLeftbar(self):
+        self.nameFunction = "display_from_leftbar_all_<li>_items"
+        for itemLeft in self.soup.findAll('div', {'class': 'leftbar'}):
+            for item in itemLeft.find_all('a'):
+                print("- " + item.text)
+
 estudiazo = estudios()
 estudiazo.getTitle()
 print("-"*60)
 estudiazo.getUpenTopElements()
 print("-"*60)
 estudiazo.getEstudios()
+print("-"*60)
+estudiazo.displayLeftbar()
