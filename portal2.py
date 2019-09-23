@@ -15,9 +15,20 @@ class portal:
     # Parse the html content, this is the Magic ;)
     soup = BeautifulSoup(html_content, "html.parser")
 
+    def getCheckIfThirty(self, lines):
+        return (len(lines.split('\n')) > 30)
+
+    def checkIfThirty(self, lines):
+        if self.getCheckIfThirty(lines):
+            self.logError(lines)
+            return print(f"Output exceeds 30 lines, logging into..")
+        else:
+            return print(f"{lines}")
+
     def title(self):
-        self.titles= portal.soup.title.string
-        return print("GET the title and print it: <" + self.titles+">")
+        self.titles = self.getCheckIfThirty(portal.soup.title.string)
+        #self.titles = portal.soup.title.string
+        return print(f"GET the title and print it: <{self.titles}>")
 
 
 portalazo = portal()
