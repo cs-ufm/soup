@@ -56,13 +56,22 @@ class CS:
             urllib.request.urlretrieve(self.logoLink, 'FCElogo.png')
         return ("Image downloaded")
 
+    def getMetaOg(self):
+        for item in self.soup.findAll('meta', {'property': 'og:title'}):
+            content = item.get('content')
+        for item in self.soup.findAll('meta', {'property': 'og:description'}):
+            descripcion = item.get('content')
+        return print(f"Título: {content}, Description:  {descripcion}")
+
 print("3. CS")
 print("-"*60)
 csazo = CS()
 csazo.getTitle()
 print("-"*60)
-csazo.findHrefCS()
+#csazo.findHrefCS()
 print("-"*60)
-csazo.downloadLogoFCE()
+#csazo.downloadLogoFCE()
+print("-"*60)
+csazo.getMetaOg()
 
 
