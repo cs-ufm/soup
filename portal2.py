@@ -15,18 +15,26 @@ class portal:
     # Parse the html content, this is the Magic ;)
     soup = BeautifulSoup(html_content, "html.parser")
 
+    def logFileWriter(self, lines, nameOfFile):
+        file = open(f"/logs/{nameOfFile}", "w")
+        file.write(lines)
+        file.close()
+
     def getCheckIfThirty(self, lines):
         return (len(lines.split('\n')) > 30)
 
-    def checkIfThirty(self, lines):
+    def checkIfThirty(self, lines, func):
         if self.getCheckIfThirty(lines):
-            self.logError(lines)
-            return print(f"Output exceeds 30 lines, logging into..")
+            #self.logError(lines)
+            self.nameOfOutputLogFile = f"logs/1portal_{func}.txt"
+            self.logFileWriter(lines, self.nameOfOutputLogFile)
+            return f"Output exceeds 30 lines, sending output to: {self.nameOfOutputLogFile}"
         else:
-            return print(f"{lines}")
+            return f"{lines}"
 
-    def title(self):
-        self.titles = self.getCheckIfThirty(portal.soup.title.string)
+    def getTitle(self):
+        self.nameFunction = "GET_the_title_and_print_it"
+        self.titles = self.checkIfThirty(portal.soup.title.string, self.nameFunction)
         #self.titles = portal.soup.title.string
         return print(f"GET the title and print it: <{self.titles}>")
 
@@ -35,5 +43,5 @@ portalazo = portal()
 
 print("1. Portal")
 print(" ")
-portalazo.title()
+portalazo.getTitle()
 print("---------------------------------------")
