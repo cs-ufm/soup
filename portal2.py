@@ -52,6 +52,30 @@ class portal:
         self.email = self.checkIfThirty(self.variables[293].text, self.nameFunction)
         return print(f"GET the phone: <{self.phone}> and email <{self.email}>")
 
+    def getUpenNavElements(self):
+        self.nameFunction = "GET_all_item_that_are_part_of_the_upper_nav_menu"
+        pass
+
+    def findHref(self):
+        self.nameFunction = "find_all_properties_that_have_href"
+        self.elementos = self.soup.find_all('a', href=True)
+        self.longitud = len(self.elementos)
+        if self.longitud > 30:
+            return  self.checkIfThirty(self.elementos, self.nameFunction)
+        else:
+            for a in self.soup.find_all('a', href=True):
+                return print("URL encontrada:", a['href'])
+
+    def getUFMMailButton(self):
+        self.nameFunction = "GET_href_of_UFMail_button"
+        #for a in self.soup.find_all('a'):
+        #    if a.text == "UFMAil":
+        #        self.linkButtonMail = a.get('href')
+        #return print(f"Get href of UFMail Button: <{self.linkButtonMail}>")
+        for a in self.soup.find_all('a'):
+            if (a.text == "UFMail"):
+                linkButtonMail = a.get('href')
+        return print(f"GET href of UFMail button: < {linkButtonMail} >")
 
 
 portalazo = portal()
@@ -61,4 +85,8 @@ print("-"*60)
 portalazo.getAddress()
 print("-"*60)
 portalazo.getPhoneEmail()
+print("-"*60)
+#portalazo.findHref()
+print("-"*60)
+portalazo.getUFMMailButton()
 print("-"*60)

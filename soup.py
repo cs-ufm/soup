@@ -21,6 +21,9 @@ soup = BeautifulSoup(html_content, "html.parser")
 print(soup.title)
 print(soup.title.string)
 
-for div in soup.find_all("div"):
-    print(div)
-    print("--------------------------")
+#for div in soup.find_all("div"):
+  #  print(div)
+   # print("--------------------------")
+
+for a in soup.find_all('a', href=True):
+    print("URL encontrada:", a['href'])
