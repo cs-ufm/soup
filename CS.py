@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import requests,sys, csv, json, time
 import os
 import shutil
+import urllib.request
 
 class CS:
     url= "https://fce.ufm.edu/carrera/cs/"
@@ -48,6 +49,13 @@ class CS:
         self.myhrefs = self.checkIfThirty(hrefs, self.nameFunction)
         return(f"GET the href and print it: {self.myhrefs}")
 
+    def downloadLogoFCE(self):
+        self.nameFunction = "download_the_FCE_logo"
+        for img in self.soup.find_all('img', {'class': 'fl-photo-img wp-image-500 size-full'}):
+            self.logoLink = img.get('src')
+            urllib.request.urlretrieve(self.logoLink, 'FCElogo.png')
+        return ("Image downloaded")
+
 print("3. CS")
 print("-"*60)
 csazo = CS()
@@ -55,4 +63,6 @@ csazo.getTitle()
 print("-"*60)
 csazo.findHrefCS()
 print("-"*60)
+csazo.downloadLogoFCE()
+
 
