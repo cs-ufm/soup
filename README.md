@@ -224,8 +224,8 @@ using ["https://fce.ufm.edu/carrera/cs/"](https://fce.ufm.edu/carrera/cs/)
 ## 4. Directorio
 using ["https://www.ufm.edu/Directorio"](https://www.ufm.edu/Directorio)
 
-- [ ] Sort all emails alphabetically (`href="mailto:arquitectura@ufm.edu"`) in a list, dump it to logs/4directorio_emails.txt
-- [ ] Count all emails that start with a vowel. (just display the count)
+- [x] Sort all emails alphabetically (`href="mailto:arquitectura@ufm.edu"`) in a list, dump it to logs/4directorio_emails.txt
+- [x] Count all emails that start with a vowel. (just display the count)
 - [ ] Group in a JSON all rows that have `Same Address` (dont use Room number) as address, dump it to logs/4directorio_address.json
 
 

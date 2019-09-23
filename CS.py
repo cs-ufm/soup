@@ -47,14 +47,14 @@ class CS:
         for href in self.soup.find_all(href=True):
             hrefs += f" - {href}\n"
         self.myhrefs = self.checkIfThirty(hrefs, self.nameFunction)
-        return(f"GET the href and print it: {self.myhrefs}")
+        return print(f"GET the href and print it: {self.myhrefs}")
 
     def downloadLogoFCE(self):
         self.nameFunction = "download_the_FCE_logo"
         for img in self.soup.find_all('img', {'class': 'fl-photo-img wp-image-500 size-full'}):
             self.logoLink = img.get('src')
             urllib.request.urlretrieve(self.logoLink, 'FCElogo.png')
-        return ("Image downloaded")
+        return print("Image downloaded")
 
     def getMetaOg(self):
         self.nameFunction = "returns_meta_title_and_description"

@@ -70,7 +70,7 @@ class portal:
         for href in self.soup.find_all(href=True):
             hrefs += f" - {href}\n"
         self.myhrefs = self.checkIfThirty(hrefs, self.nameFunction)
-        return(f"GET the href and print it: {self.myhrefs}")
+        return print(f"GET the href and print it: {self.myhrefs}")
         #return print(f"find all properties that have href <{self.hrefs}>")
 
 

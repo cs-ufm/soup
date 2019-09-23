@@ -41,6 +41,7 @@ class directorio :
         return print(f"GET the title and print it: <{self.titles}>")
 
     def sortEmails(self):
+        self.nameFunction = "emails"
         mailList = [f"{mail.get('href')}".replace("mailto:", "", -1) for mail in
                     self.soup.find_all("a", href=re.compile(r"^mailto:"))]
         mailList.sort()
@@ -48,10 +49,23 @@ class directorio :
         for eachMail in mailList:
             mailListStr += f" - {eachMail}\n"
         self.myhrefs = self.checkIfThirty(mailListStr, self.nameFunction)
-        return (f"GET the href and print it: {self.myhrefs}")
+        return print(f"GET the href and print it: {self.myhrefs}")
+
+    def vowelEmails(self):
+        self.nameFunction = "emails_with_vowels"
+        mailList = [f"{mail.get('href')}".replace("mailto:", "", -1) for mail in
+                    self.soup.find_all("a", href=re.compile(r"^mailto:"))]
+        vocales = ['a', 'e', 'i', 'o', 'u']
+        count = 0
+        for correos in mailList:
+            if correos[0] in vocales:
+                count += 1
+        return print(f"La cantidad de correos que inician en vocal es {count}")
 
 print("4. Direcorio")
 directoriazo = directorio()
 directoriazo.getTitle()
 print("-"*60)
 directoriazo.sortEmails()
+print("-"*60)
+directoriazo.vowelEmails()
