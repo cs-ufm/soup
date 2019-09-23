@@ -179,7 +179,7 @@ using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 - [x] GET href of "UFMail" button
 - [x] GET href "MiU" button.
 - [ ] get hrefs of all &lt;img>
-- [ ] count all &lt;a>
+- [x] count all &lt;a>
 
 
 ### 1.1 Extra points
