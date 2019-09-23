@@ -95,7 +95,10 @@ class portal:
         return print(f"GET href of MiU button: < {linkButtonMiU} >")
 
     def getHrefImg(self):
-        pass
+        for img in self.soup.find_all('a'):
+            x = len(img.find_all('img'))
+            if (x > 0):
+                print("- " + img.get('href'))
 
     def countA(self):
         self.countAllA = len(self.soup.find_all('a', href=True))
@@ -116,5 +119,7 @@ print("-"*60)
 portalazo.getUFMMailButton()
 print("-"*60)
 portalazo.getMiUButton()
+print("-"*60)
+portalazo.getHrefImg()
 print("-"*60)
 portalazo.countA()

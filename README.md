@@ -178,7 +178,7 @@ using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 - [ ] find all properties that have href (link to somewhere)
 - [x] GET href of "UFMail" button
 - [x] GET href "MiU" button.
-- [ ] get hrefs of all &lt;img>
+- [x] get hrefs of all &lt;img>
 - [x] count all &lt;a>
 
 
