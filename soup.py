@@ -27,3 +27,16 @@ print(soup.title.string)
 
 for a in soup.find_all('a', href=True):
     print("URL encontrada:", a['href'])
+
+
+    id = "menu-table"
+    navBarMenu = soup.find_all("table", {"id": f"menu-table"})
+    #menutable_list = []
+    #print("GET all item that are part of the upper nav menu (id: menu-table)")
+    for elements in navBarMenu:
+        for subelement in elements.find_all("div"):
+            div = subelement.string
+            if div is not None:
+                div = str(div).strip()
+                print(f"- {div}")
+                #menutable_list.append(div.strip())

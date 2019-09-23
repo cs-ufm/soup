@@ -54,7 +54,13 @@ class portal:
 
     def getUpenNavElements(self):
         self.nameFunction = "GET_all_item_that_are_part_of_the_upper_nav_menu"
-        pass
+        navBarMenu = self.soup.find_all("table", {"id": f"menu-table"})
+        for elements in navBarMenu:
+            for subelement in elements.find_all("div"):
+                div = subelement.string
+                if div is not None:
+                    div = str(div).strip()
+                    print(f"- {div}")
 
     def findHref(self):
         self.nameFunction = "find_all_properties_that_have_href"
@@ -104,6 +110,7 @@ portalazo.getAddress()
 print("-"*60)
 portalazo.getPhoneEmail()
 print("-"*60)
+portalazo.getUpenNavElements()
 #portalazo.findHref()
 print("-"*60)
 portalazo.getUFMMailButton()
