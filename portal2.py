@@ -2,6 +2,7 @@
 from bs4 import BeautifulSoup
 import requests,sys, csv, json, time
 import os
+import shutil
 
 class portal:
     url="http://ufm.edu/Portal"
@@ -19,6 +20,7 @@ class portal:
         file = open(f"{nameOfFile}", "w")
         file.write(lines)
         file.close()
+        shutil.move(f'{nameOfFile}', 'logs')
 
     def getCheckIfThirty(self, lines):
         return (len(lines.split('\n')) > 30)
@@ -67,7 +69,8 @@ class portal:
         hrefs = ""
         for href in self.soup.find_all(href=True):
             hrefs += f" - {href}\n"
-        return (f"GET the href and print it: {self.checkIfThirty(hrefs, self.nameFunction)} ")
+        self.myhrefs = self.checkIfThirty(hrefs, self.nameFunction)
+        return(f"GET the href and print it: {self.myhrefs}")
         #return print(f"find all properties that have href <{self.hrefs}>")
 
 
