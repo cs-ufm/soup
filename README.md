@@ -206,7 +206,7 @@ using ["http://ufm.edu/Estudios"](http://ufm.edu/Estudios)
 - [x] display all items from "topmenu" (8 in total)
 - [x] display ALL "Estudios" (Doctorados/Maestrias/Posgrados/Licenciaturas/Baccalaureus)
 - [x] display from "leftbar" all &lt;li> items (4 in total)
-- [ ] get and display all available social media with its links (href) "class=social pull-right"
+- [x] get and display all available social media with its links (href) "class=social pull-right"
 - [ ] count all &lt;a> (just display the count)
 
 

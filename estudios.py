@@ -61,6 +61,13 @@ class estudios:
             for item in itemLeft.find_all('a'):
                 print("- " + item.text)
 
+    def displaySocialMedia(self):
+        self.nameFunction = "get_and_display_all_available_social_media"
+        for itemLeft in self.soup.findAll('div', {'class': 'social pull-right'}):
+            for item in itemLeft.find_all('a'):
+                print("- " + item.get('href'))
+
+
 estudiazo = estudios()
 estudiazo.getTitle()
 print("-"*60)
@@ -69,3 +76,5 @@ print("-"*60)
 estudiazo.getEstudios()
 print("-"*60)
 estudiazo.displayLeftbar()
+print("-"*60)
+estudiazo.displaySocialMedia()
