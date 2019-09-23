@@ -3,6 +3,7 @@ from bs4 import BeautifulSoup
 import requests,sys
 import csv
 import json
+import  time
 
 url="http://ufm.edu/Portal"
 # Make a GET request to fetch the raw HTML content
@@ -25,18 +26,10 @@ print(soup.title.string)
   #  print(div)
    # print("--------------------------")
 
-for a in soup.find_all('a', href=True):
-    print("URL encontrada:", a['href'])
+def href():
+    hrefs= ""
+    for href in soup.find_all(href=True):
+        hrefs += f" - {href}\n"
+    print(f"GET the href and print it: {self.log.logIfThirty(hrefs)} ")
 
-
-    id = "menu-table"
-    navBarMenu = soup.find_all("table", {"id": f"menu-table"})
-    #menutable_list = []
-    #print("GET all item that are part of the upper nav menu (id: menu-table)")
-    for elements in navBarMenu:
-        for subelement in elements.find_all("div"):
-            div = subelement.string
-            if div is not None:
-                div = str(div).strip()
-                print(f"- {div}")
-                #menutable_list.append(div.strip())
+href()

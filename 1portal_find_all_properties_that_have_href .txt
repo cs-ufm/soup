@@ -1,0 +1,346 @@
+ - <link href="/favicon.ico" rel="shortcut icon"/>
+ - <link href="/skins/Ufm/A.plugins,,_bootstrap-2.3.2,,_css,,_bootstrap.min.css+css,,_bootstrap-responsive.css+plugins,,_font-awesome-4.1.0,,_css,,_font-awesome.min.css,Mcc.KOfmUBfgiP.css.pagespeed.cf.5xzdQKYjDp.css" rel="stylesheet"/>
+ - <link href="/skins/Ufm/css/A.skin.css.pagespeed.cf.RiDDD0FrLy.css" rel="stylesheet"/>
+ - <a class="external text" href="https://www.ufm.edu/english/" rel="nofollow noreferrer noopener" target="_blank">UFM Key Projects</a>
+ - <a class="external text" href="https://foufm.org" rel="nofollow noreferrer noopener" target="_blank">Friends of UFM</a>
+ - <a class="external text" href="https://www.ufm.edu/checkout/donaciones/" rel="nofollow noreferrer noopener" target="_blank">Donaciones</a>
+ - <a href="/Especial:Sugerencias" title="Especial:Sugerencias"> Contáctenos</a>
+ - <a class="external text" href="http://admisiones.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Admisiones</a>
+ - <a class="external text" href="https://alumni.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Alumni</a>
+ - <a class="external text" href="https://madrid.ufm.edu/?referer=ufm" rel="nofollow noreferrer noopener" target="_blank">Campus Madrid</a>
+ - <a href="/Redes_Sociales" title="Redes Sociales"> Redes Sociales</a>
+ - <a href="/index.php/Estudios">Estudios</a>
+ - <a class="accordion-toggle menucerrado" data-parent="#accordion2" data-toggle="collapse" href="#facultades">
+	        Facultades <i class="fa fa-arrow-down"></i>
+</a>
+ - <a class="external text" href="http://arquitectura.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Arquitectura</a>
+ - <a class="external text" href="http://chh.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro Henry Hazlitt</a>
+ - <a class="external text" href="http://fce.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Ciencias Económicas</a>
+ - <a class="external text" href="http://escs.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Ciencias Sociales</a>
+ - <a class="external text" href="http://derecho.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Derecho</a>
+ - <a class="external text" href="http://educacion.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Educación</a>
+ - <a class="external text" href="http://epri.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Estudios Políticos y Relaciones Internacionales</a>
+ - <a class="external text" href="http://medicina.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Medicina</a>
+ - <a class="external text" href="http://nutricion.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Nutrición</a>
+ - <a class="external text" href="http://odontologia.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Odontología</a>
+ - <a class="external text" href="http://psicologia.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Psicología</a>
+ - <a class="external text" href="http://actonmba.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Acton MBA</a>
+ - <a class="external text" href="http://doctorado.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Programa de Doctorado</a>
+ - <a class="external text" href="http://cine.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Escuela de Cine y Artes Visuales</a>
+ - <a class="external text" href="http://en.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Escuela de Negocios</a>
+ - <a class="external text" href="http://posgrado.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Escuela de Posgrado</a>
+ - <a class="external text" href="http://mpc.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Michael Polanyi College</a>
+ - <a class="external text" href="https://madrid.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Campus Madrid</a>
+ - <a class="accordion-toggle menucerrado" data-parent="#accordion2" data-toggle="collapse" href="#proyectos">
+	        Proyectos <i class="fa fa-arrow-down"></i>
+</a>
+ - <a class="external text" href="http://antiguaforum.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Antigua Forum</a>
+ - <a class="external text" href="http://arboretum.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Arboretum</a>
+ - <a class="external text" href="http://debates.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Asociación de Debates</a>
+ - <a class="external text" href="http://chh.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro Henry Hazlitt</a>
+ - <a class="external text" href="http://doshistorias.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Dos Historias, Una Ciudad</a>
+ - <a class="external text" href="http://cadep.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro para el Análisis de las Deciones Públicas (CADEP)</a>
+ - <a class="external text" href="http://hume.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro de Ética David Hume</a>
+ - <a class="external text" href="http://capitalismo.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Centro de Estudio del Capitalismo</a>
+ - <a class="external text" href="http://centroik.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro Ibn Khaldun</a>
+ - <a class="external text" href="http://fce.ufm.edu/inicio-cvs/" rel="nofollow noreferrer noopener" target="_blank">Centro Vernon Smith de Economía Experimental</a>
+ - <a class="external text" href="https://cff.ufm.edu/2019/" rel="nofollow noreferrer noopener" target="_blank">College Freedom Forum At UFM 2019</a>
+ - <a class="external text" href="http://www.stillman.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Concurso Charles L. Stillman </a>
+ - <a class="external text" href="http://economia-austriaca.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Congreso de Economía Austriaca</a>
+ - <a class="external text" href="http://evolucion.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Evolución</a>
+ - <a class="external text" href="http://frc.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Finance Research Center</a>
+ - <a class="external text" href="http://gem.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Global Entrepreneurship Monitor</a>
+ - <a class="external text" href="https://grajedamena.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Grajeda Mena</a>
+ - <a class="external text" href="http://www.freedomsphilosopher.ufm.edu/index.php/Main_Page" rel="nofollow noreferrer noopener" target="_blank">Hayek Freedom's Philosopher</a>
+ - <a class="external text" href="http://hazlitt.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Henry Hazlitt Archives</a>
+ - <a class="external text" href="http://heuristica.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Heurística</a>
+ - <a class="external text" href="http://jihu.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Jornadas de Investigación en Humanidades (JIHU)</a>
+ - <a class="external text" href="http://fce.ufm.edu/kec/centro-de-emprendimiento-kirzner/" rel="nofollow noreferrer noopener" target="_blank">Kirzner Entrepreneurship Center</a>
+ - <a class="external text" href="http://trends.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Market Trends Es/En</a>
+ - <a class="external text" href="http://donquijote.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Mooc Don Quijote Es/En</a>
+ - <a class="external text" href="http://salamanca.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Mooc La Escuela de Salamanca Es/En</a>
+ - <a class="external text" href="http://opencourses.ufm.edu/courses/course-v1:Ciencia-Politica+CSESV1+2019/about" rel="nofollow noreferrer noopener" target="_blank">Mooc Capitalismo y Socialismo</a>
+ - <a class="external text" href="http://opencourses.ufm.edu/courses/course-v1:Estudios-latinoamericanos+DMLES+2019/about" rel="nofollow noreferrer noopener" target="_blank">Mooc Dictaduras Militares Latinoamericanas</a>
+ - <a class="external text" href="https://opencourses.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Open Courses</a>
+ - <a class="external text" href="http://www.plazalibertad.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Plaza de la Libertad</a>
+ - <a class="external text" href="http://pozoeconomico.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Pozo Económico</a>
+ - <a class="external text" href="http://ita.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Programa ITA</a>
+ - <a class="external text" href="http://grandeslibros.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Seminario de Grandes Libros</a>
+ - <a class="external text" href="http://semilladelibertad.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Semilla de Libertad</a>
+ - <a class="external text" href="http://escolasticos.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Sitio Escolástico</a>
+ - <a class="external text" href="http://tedx.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">TEDxUFM</a>
+ - <a class="external text" href="http://hayek.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">The Hayek Interviews</a>
+ - <a class="external text" href="http://journal.apee.org" rel="nofollow noreferrer noopener" target="_blank">The Journal of Private Enterprise</a>
+ - <a class="accordion-toggle menucerrado" data-parent="#accordion2" data-toggle="collapse" href="#recursos">
+	        Recursos <i class="fa fa-arrow-down"></i>
+</a>
+ - <a class="external text" href="https://alumni.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Alumni</a>
+ - <a class="external text" href="http://akademeia.ufm.edu/index.php/P%C3%A1gina_principal" rel="nofollow noreferrer noopener" target="_blank">Akademeia</a>
+ - <a class="external text" href="http://arboretum.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Arboretum</a>
+ - <a href="/Asociaciones_Estudiantiles" title="Asociaciones Estudiantiles"> Asociación de Estudiantes</a>
+ - <a class="external text" href="http://biblioteca.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Biblioteca</a>
+ - <a class="external text" href="http://bookstore.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Bookstore</a>
+ - <a href="/Calendario_Acad%C3%A9mico_2019" title="Calendario Académico 2019">Calendario Académico 2019</a>
+ - <a class="external text" href="http://www.ceta.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">CETA</a>
+ - <a class="external text" href="http://gt.creativecommons.org" rel="nofollow noreferrer noopener" target="_blank">Creative Commons</a>
+ - <a href="/Cr%C3%A9dito_Educativo" title="Crédito Educativo">Crédito Educativo</a>
+ - <a class="external text" href="http://cronica.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Crónica</a>
+ - <a href="/Directorio" title="Directorio">Directorio</a>
+ - <a class="external text" href="http://asomate.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Eventos</a>
+ - <a class="external text" href="https://formacioncontinua.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Formación Continua</a>
+ - <a class="external text" href="http://graduacion.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Graduaciones</a>
+ - <a class="external text" href="http://heroes.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Héroes</a>
+ - <a class="external text" href="http://laissezfaire.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Laissez Faire</a>
+ - <a href="/Mapa_Campus" title="Mapa Campus">Mapa Campus</a>
+ - <a class="external text" href="http://newmedia.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">New Media</a>
+ - <a class="external text" href="http://www.povertycure.org/" rel="nofollow noreferrer noopener" target="_blank">PovertyCure</a>
+ - <a href="/Tarifario_2019" title="Tarifario 2019">Tarifario 2019</a>
+ - <a class="external text" href="http://wiki.ufm.edu/chh/index.php/Portada" rel="nofollow noreferrer noopener" target="_blank">Wiki diccionario</a>
+ - <a class="accordion-toggle menucerrado" data-parent="#accordion2" data-toggle="collapse" href="#blogs">
+	        Blogs <i class="fa fa-arrow-down"></i>
+</a>
+ - <a class="external text" href="http://www.exploraciones.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">¿A quién pertenece el pasado?</a>
+ - <a class="external text" href="http://www.cadep.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">Centro para el Análisis de las Decisiones Públicas (CADEP)</a>
+ - <a class="external text" href="http://www.cronica.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">Crónica</a>
+ - <a class="external text" href="http://bazar.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">El Foro y el Bazar</a>
+ - <a class="external text" href="http://erasmus.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Erasmus</a>
+ - <a class="external text" href="http://librolibertate.wordpress.com/" rel="nofollow noreferrer noopener" target="_blank">Libro Libertate</a>
+ - <a class="external text" href="http://naturalorder.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Natural Order</a>
+ - <a class="external text" href="https://escs.ufm.edu/pensarescrecer/" rel="nofollow noreferrer noopener" target="_blank">Pensar es Crecer</a>
+ - <a class="external text" href="http://posgrado.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">Praxis &amp; Lexis</a>
+ - <a class="external text" href="http://nutricion.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">Recetas y Salud</a>
+ - <a class="accordion-toggle menucerrado" data-parent="#accordion2" data-toggle="collapse" href="#cultura">
+	        Cultura <i class="fa fa-arrow-down"></i>
+</a>
+ - <a class="external text" href="http://www.atlaslibertas.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Atlas Libertas</a>
+ - <a class="external text" href="http://casapopenoe.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Casa Popenoe</a>
+ - <a class="external text" href="http://conciertos.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Departamento de Artes Escénicas</a>
+ - <a class="external text" href="http://asomate.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Eventos</a>
+ - <a class="external text" href="http://lienzo.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Lienzo Quauhquechollan</a>
+ - <a class="external text" href="http://donquijote.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Mooc Don Quijote Español</a>
+ - <a class="external text" href="http://donquijote.ufm.edu/en" rel="nofollow noreferrer noopener" target="_blank">Mooc Don Quijote Inglés</a>
+ - <a class="external text" href="http://www.popolvuh.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Museo Popol Vuh</a>
+ - <a class="accordion-toggle menucerrado" data-parent="#accordion2" data-toggle="collapse" href="#ufm">
+	        UFM <i class="fa fa-arrow-down"></i>
+</a>
+ - <a href="/Alianzas" title="Alianzas">Alianzas</a>
+ - <a class="external text" href="http://cuarenta.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Cuarenta años 1 misión</a>
+ - <a href="/Discurso_Inaugural" title="Discurso Inaugural">Discurso Inaugural Manuel F. Ayau</a>
+ - <a class="external text" href="https://www.ufm.edu/images/7/71/DiscursoInauguralLicMonterroso.pdf" rel="nofollow noreferrer noopener" target="_blank">Discurso del rector Fernando Monterroso</a>
+ - <a class="external text" href="https://www.ufm.edu/images/2/2e/DiscursoInauguralGiancarloIbarguen.pdf" rel="nofollow noreferrer noopener" target="_blank">Discurso del rector Giancarlo Ibárgüen</a>
+ - <a class="external text" href="https://www.ufm.edu/images/0/0e/DiscursoInauguralDrGabrielCalzada.pdf" rel="nofollow noreferrer noopener" target="_blank">Discurso del rector Gabriel Calzada</a>
+ - <a href="/Doctorados_Honoris_Causa" title="Doctorados Honoris Causa">Doctorados Honoris Causa</a>
+ - <a class="external text" href="http://evolucion.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Evolución</a>
+ - <a class="external text" href="https://www.ufm.edu/images/d/d5/Excelencia.pdf" rel="nofollow noreferrer noopener" target="_blank">Excelencia</a>
+ - <a class="external text" href="http://fiduciarios.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Fiduciarios</a>
+ - <a href="/Himno" title="Himno">Himno</a>
+ - <a href="/Ideario" title="Ideario">Ideario</a>
+ - <a href="/Informe_Financiero" title="Informe Financiero">Informe Financiero</a>
+ - <a class="external text" href="http://cuarenta.ufm.edu/index.php/Linea_del_Tiempo" rel="nofollow noreferrer noopener" target="_blank">Línea del tiempo</a>
+ - <a class="external text" href="http://muso.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Manuel F. Ayau</a>
+ - <a class="external text" href="http://newmedia.ufm.edu/coleccion/proceso-economico-por-el-dr-manuel-ayau/por-que-la-ufm/" rel="nofollow noreferrer noopener" target="_blank">¿Por qué la UFM?</a>
+ - <a href="/Reglamentos" title="Reglamentos">Reglamentos</a>
+ - <a class="external text" href="https://www.ufm.edu/images/0/0e/Loa_Fco_Marroquin.pdf" rel="nofollow noreferrer noopener" target="_blank">Semblanza y Loa de Francisco</a>
+ - <a href="/Tradiciones_UFM" title="Tradiciones UFM"> Tradiciones</a>
+ - <a href="/Tarifario_2019" title="Tarifario 2019">Tarifario 2019</a>
+ - <a href="/Valores" title="Valores">Valores</a>
+ - <a href="/Virtudes" title="Virtudes">Virtudes</a>
+ - <a href="/index.php/"><img src="/skins/Ufm/img/xLogotipoUFM.png.pagespeed.ic.F1uZhpmWlC.png"/></a>
+ - <a href="/Estudios">Estudios</a>
+ - <a href="/index.php/"><img src="/skins/Ufm/img/LogotipoUFM-top_rojo.png.pagespeed.ce.Jh46KSdFBs.png" style="width:250px;"/></a>
+ - <a href="" target="_blank"><img src="/images/c/c9/xPlantilla-foto-portal.jpg.pagespeed.ic.gm_iBdznkY.jpg"/></a>
+ - <a class="external text" href="http://arquitectura.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Arquitectura</a>
+ - <a class="external text" href="http://chh.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro Henry Hazlitt</a>
+ - <a class="external text" href="http://fce.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Ciencias Económicas</a>
+ - <a class="external text" href="http://escs.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Ciencias Sociales</a>
+ - <a class="external text" href="http://derecho.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Derecho</a>
+ - <a class="external text" href="http://educacion.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Educación</a>
+ - <a class="external text" href="http://epri.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Estudios Políticos y Relaciones Internacionales</a>
+ - <a class="external text" href="http://medicina.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Medicina</a>
+ - <a class="external text" href="http://nutricion.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Nutrición</a>
+ - <a class="external text" href="http://odontologia.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Odontología</a>
+ - <a class="external text" href="http://psicologia.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Psicología</a>
+ - <a class="external text" href="http://actonmba.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Acton MBA</a>
+ - <a class="external text" href="http://doctorado.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Programa de Doctorado</a>
+ - <a class="external text" href="http://cine.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Escuela de Cine y Artes Visuales</a>
+ - <a class="external text" href="http://en.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Escuela de Negocios</a>
+ - <a class="external text" href="http://posgrado.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Escuela de Posgrado</a>
+ - <a class="external text" href="http://mpc.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Michael Polanyi College</a>
+ - <a class="external text" href="https://madrid.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Campus Madrid</a>
+ - <a class="external text" href="http://antiguaforum.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Antigua Forum</a>
+ - <a class="external text" href="http://arboretum.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Arboretum</a>
+ - <a class="external text" href="http://debates.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Asociación de Debates</a>
+ - <a class="external text" href="http://chh.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro Henry Hazlitt</a>
+ - <a class="external text" href="http://doshistorias.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Dos Historias, Una Ciudad</a>
+ - <a class="external text" href="http://cadep.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro para el Análisis de las Deciones Públicas (CADEP)</a>
+ - <a class="external text" href="http://hume.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro de Ética David Hume</a>
+ - <a class="external text" href="http://capitalismo.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Centro de Estudio del Capitalismo</a>
+ - <a class="external text" href="http://centroik.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Centro Ibn Khaldun</a>
+ - <a class="external text" href="http://fce.ufm.edu/inicio-cvs/" rel="nofollow noreferrer noopener" target="_blank">Centro Vernon Smith de Economía Experimental</a>
+ - <a class="external text" href="https://cff.ufm.edu/2019/" rel="nofollow noreferrer noopener" target="_blank">College Freedom Forum At UFM 2019</a>
+ - <a class="external text" href="http://www.stillman.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Concurso Charles L. Stillman </a>
+ - <a class="external text" href="http://economia-austriaca.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Congreso de Economía Austriaca</a>
+ - <a class="external text" href="http://evolucion.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Evolución</a>
+ - <a class="external text" href="http://frc.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Finance Research Center</a>
+ - <a class="external text" href="http://gem.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Global Entrepreneurship Monitor</a>
+ - <a class="external text" href="https://grajedamena.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Grajeda Mena</a>
+ - <a class="external text" href="http://www.freedomsphilosopher.ufm.edu/index.php/Main_Page" rel="nofollow noreferrer noopener" target="_blank">Hayek Freedom's Philosopher</a>
+ - <a class="external text" href="http://hazlitt.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Henry Hazlitt Archives</a>
+ - <a class="external text" href="http://heuristica.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Heurística</a>
+ - <a class="external text" href="http://jihu.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Jornadas de Investigación en Humanidades (JIHU)</a>
+ - <a class="external text" href="http://fce.ufm.edu/kec/centro-de-emprendimiento-kirzner/" rel="nofollow noreferrer noopener" target="_blank">Kirzner Entrepreneurship Center</a>
+ - <a class="external text" href="http://trends.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Market Trends Es/En</a>
+ - <a class="external text" href="http://donquijote.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Mooc Don Quijote Es/En</a>
+ - <a class="external text" href="http://salamanca.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Mooc La Escuela de Salamanca Es/En</a>
+ - <a class="external text" href="http://opencourses.ufm.edu/courses/course-v1:Ciencia-Politica+CSESV1+2019/about" rel="nofollow noreferrer noopener" target="_blank">Mooc Capitalismo y Socialismo</a>
+ - <a class="external text" href="http://opencourses.ufm.edu/courses/course-v1:Estudios-latinoamericanos+DMLES+2019/about" rel="nofollow noreferrer noopener" target="_blank">Mooc Dictaduras Militares Latinoamericanas</a>
+ - <a class="external text" href="https://opencourses.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Open Courses</a>
+ - <a class="external text" href="http://www.plazalibertad.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Plaza de la Libertad</a>
+ - <a class="external text" href="http://pozoeconomico.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Pozo Económico</a>
+ - <a class="external text" href="http://ita.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Programa ITA</a>
+ - <a class="external text" href="http://grandeslibros.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Seminario de Grandes Libros</a>
+ - <a class="external text" href="http://semilladelibertad.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Semilla de Libertad</a>
+ - <a class="external text" href="http://escolasticos.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Sitio Escolástico</a>
+ - <a class="external text" href="http://tedx.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">TEDxUFM</a>
+ - <a class="external text" href="http://hayek.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">The Hayek Interviews</a>
+ - <a class="external text" href="http://journal.apee.org" rel="nofollow noreferrer noopener" target="_blank">The Journal of Private Enterprise</a>
+ - <a class="external text" href="https://alumni.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Alumni</a>
+ - <a class="external text" href="http://akademeia.ufm.edu/index.php/P%C3%A1gina_principal" rel="nofollow noreferrer noopener" target="_blank">Akademeia</a>
+ - <a class="external text" href="http://arboretum.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Arboretum</a>
+ - <a href="/Asociaciones_Estudiantiles" title="Asociaciones Estudiantiles"> Asociación de Estudiantes</a>
+ - <a class="external text" href="http://biblioteca.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Biblioteca</a>
+ - <a class="external text" href="http://bookstore.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Bookstore</a>
+ - <a href="/Calendario_Acad%C3%A9mico_2019" title="Calendario Académico 2019">Calendario Académico 2019</a>
+ - <a class="external text" href="http://www.ceta.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">CETA</a>
+ - <a class="external text" href="http://gt.creativecommons.org" rel="nofollow noreferrer noopener" target="_blank">Creative Commons</a>
+ - <a href="/Cr%C3%A9dito_Educativo" title="Crédito Educativo">Crédito Educativo</a>
+ - <a class="external text" href="http://cronica.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Crónica</a>
+ - <a href="/Directorio" title="Directorio">Directorio</a>
+ - <a class="external text" href="http://asomate.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Eventos</a>
+ - <a class="external text" href="https://formacioncontinua.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Formación Continua</a>
+ - <a class="external text" href="http://graduacion.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Graduaciones</a>
+ - <a class="external text" href="http://heroes.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Héroes</a>
+ - <a class="external text" href="http://laissezfaire.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Laissez Faire</a>
+ - <a href="/Mapa_Campus" title="Mapa Campus">Mapa Campus</a>
+ - <a class="external text" href="http://newmedia.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">New Media</a>
+ - <a class="external text" href="http://www.povertycure.org/" rel="nofollow noreferrer noopener" target="_blank">PovertyCure</a>
+ - <a href="/Tarifario_2019" title="Tarifario 2019">Tarifario 2019</a>
+ - <a class="external text" href="http://wiki.ufm.edu/chh/index.php/Portada" rel="nofollow noreferrer noopener" target="_blank">Wiki diccionario</a>
+ - <a class="external text" href="http://www.exploraciones.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">¿A quién pertenece el pasado?</a>
+ - <a class="external text" href="http://www.cadep.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">Centro para el Análisis de las Decisiones Públicas (CADEP)</a>
+ - <a class="external text" href="http://www.cronica.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">Crónica</a>
+ - <a class="external text" href="http://bazar.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">El Foro y el Bazar</a>
+ - <a class="external text" href="http://erasmus.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Erasmus</a>
+ - <a class="external text" href="http://librolibertate.wordpress.com/" rel="nofollow noreferrer noopener" target="_blank">Libro Libertate</a>
+ - <a class="external text" href="http://naturalorder.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Natural Order</a>
+ - <a class="external text" href="https://escs.ufm.edu/pensarescrecer/" rel="nofollow noreferrer noopener" target="_blank">Pensar es Crecer</a>
+ - <a class="external text" href="http://posgrado.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">Praxis &amp; Lexis</a>
+ - <a class="external text" href="http://nutricion.ufm.edu/blog/" rel="nofollow noreferrer noopener" target="_blank">Recetas y Salud</a>
+ - <a class="external text" href="http://www.atlaslibertas.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Atlas Libertas</a>
+ - <a class="external text" href="http://casapopenoe.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Casa Popenoe</a>
+ - <a class="external text" href="http://conciertos.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Departamento de Artes Escénicas</a>
+ - <a class="external text" href="http://asomate.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Eventos</a>
+ - <a class="external text" href="http://lienzo.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Lienzo Quauhquechollan</a>
+ - <a class="external text" href="http://donquijote.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Mooc Don Quijote Español</a>
+ - <a class="external text" href="http://donquijote.ufm.edu/en" rel="nofollow noreferrer noopener" target="_blank">Mooc Don Quijote Inglés</a>
+ - <a class="external text" href="http://www.popolvuh.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Museo Popol Vuh</a>
+ - <a href="/Alianzas" title="Alianzas">Alianzas</a>
+ - <a class="external text" href="http://cuarenta.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Cuarenta años 1 misión</a>
+ - <a href="/Discurso_Inaugural" title="Discurso Inaugural">Discurso Inaugural Manuel F. Ayau</a>
+ - <a class="external text" href="https://www.ufm.edu/images/7/71/DiscursoInauguralLicMonterroso.pdf" rel="nofollow noreferrer noopener" target="_blank">Discurso del rector Fernando Monterroso</a>
+ - <a class="external text" href="https://www.ufm.edu/images/2/2e/DiscursoInauguralGiancarloIbarguen.pdf" rel="nofollow noreferrer noopener" target="_blank">Discurso del rector Giancarlo Ibárgüen</a>
+ - <a class="external text" href="https://www.ufm.edu/images/0/0e/DiscursoInauguralDrGabrielCalzada.pdf" rel="nofollow noreferrer noopener" target="_blank">Discurso del rector Gabriel Calzada</a>
+ - <a href="/Doctorados_Honoris_Causa" title="Doctorados Honoris Causa">Doctorados Honoris Causa</a>
+ - <a class="external text" href="http://evolucion.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Evolución</a>
+ - <a class="external text" href="https://www.ufm.edu/images/d/d5/Excelencia.pdf" rel="nofollow noreferrer noopener" target="_blank">Excelencia</a>
+ - <a class="external text" href="http://fiduciarios.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Fiduciarios</a>
+ - <a href="/Himno" title="Himno">Himno</a>
+ - <a href="/Ideario" title="Ideario">Ideario</a>
+ - <a href="/Informe_Financiero" title="Informe Financiero">Informe Financiero</a>
+ - <a class="external text" href="http://cuarenta.ufm.edu/index.php/Linea_del_Tiempo" rel="nofollow noreferrer noopener" target="_blank">Línea del tiempo</a>
+ - <a class="external text" href="http://muso.ufm.edu" rel="nofollow noreferrer noopener" target="_blank">Manuel F. Ayau</a>
+ - <a class="external text" href="http://newmedia.ufm.edu/coleccion/proceso-economico-por-el-dr-manuel-ayau/por-que-la-ufm/" rel="nofollow noreferrer noopener" target="_blank">¿Por qué la UFM?</a>
+ - <a href="/Reglamentos" title="Reglamentos">Reglamentos</a>
+ - <a class="external text" href="https://www.ufm.edu/images/0/0e/Loa_Fco_Marroquin.pdf" rel="nofollow noreferrer noopener" target="_blank">Semblanza y Loa de Francisco</a>
+ - <a href="/Tradiciones_UFM" title="Tradiciones UFM"> Tradiciones</a>
+ - <a href="/Tarifario_2019" title="Tarifario 2019">Tarifario 2019</a>
+ - <a href="/Valores" title="Valores">Valores</a>
+ - <a href="/Virtudes" title="Virtudes">Virtudes</a>
+ - <a class="btn btn-custom-darken" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;access_type=online&amp;client_id=753553871119-42rgfeitjhbrq449nj1906662pupr1j0.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fwww.ufm.edu%2Fautenticacion%2Foauth2_init.php&amp;state=c0394716ceadb612c7f5cc5b7ef51294&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&amp;approval_prompt=auto&amp;hd=ufm.edu" id="ufmail_" style="padding:5px 16px;">UFMail</a>
+ - <a class="btn btn-custom-darken" href="https://accounts.google.com/o/oauth2/auth?response_type=code&amp;access_type=offline&amp;client_id=514583071787-mcsoogoa3kb7v56n7r78obvusehc81br.apps.googleusercontent.com&amp;redirect_uri=https%3A%2F%2Fmiu.ufm.edu%2Findex.php&amp;state=33fb419f73e896ce6b3d60a636fec133&amp;scope=https%3A%2F%2Fwww.googleapis.com%2Fauth%2Fuserinfo.email&amp;approval_prompt=force&amp;hd=ufm.edu&amp;login_hint=ejemplo%40ufm.edu" id="miu_" style="padding:5px 16px;;">MiU</a>
+ - <a class="external text" href="https://www.ufm.edu/english/" rel="nofollow noreferrer noopener" target="_blank">UFM Key Projects</a>
+ - <a class="external text" href="https://foufm.org" rel="nofollow noreferrer noopener" target="_blank">Friends of UFM</a>
+ - <a class="external text" href="https://www.ufm.edu/checkout/donaciones/" rel="nofollow noreferrer noopener" target="_blank">Donaciones</a>
+ - <a href="/Especial:Sugerencias" title="Especial:Sugerencias"> Contáctenos</a>
+ - <a class="external text" href="http://admisiones.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Admisiones</a>
+ - <a class="external text" href="https://alumni.ufm.edu/" rel="nofollow noreferrer noopener" target="_blank">Alumni</a>
+ - <a class="external text" href="https://madrid.ufm.edu/?referer=ufm" rel="nofollow noreferrer noopener" target="_blank">Campus Madrid</a>
+ - <a href="/Redes_Sociales" title="Redes Sociales"> Redes Sociales</a>
+ - <a href="https://noticias.ufm.edu" target="_blank" title="El Amigo de la Marro">El Amigo de la Marro</a>
+ - <a href="https://noticias.ufm.edu/steffan-lehnoff-participara-en-el-national-leadership-forum/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_snoticiaswpcontentuploads201909slenthumb.png"/></a>
+ - <a href="https://noticias.ufm.edu/stephanie-falla-entre-las-50-mujeres-mas-desafiantes-de-centro-america/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_snoticiaswpcontentuploads201909stepnegociosthumb.png"/></a>
+ - <a href="https://noticias.ufm.edu/medicina-ufm-celebro-xv-aniversario-del-centro-de-salud-barbara/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_snoticiaswpcontentuploads201909decanocsbthumb.png"/></a>
+ - <a href="https://noticias.ufm.edu/steffan-lehnoff-participara-en-el-national-leadership-forum/" target="_blank">Steffan Lehnhoff participará en el National Leadership Forum</a>
+ - <a href="https://noticias.ufm.edu/stephanie-falla-entre-las-50-mujeres-mas-desafiantes-de-centro-america/" target="_blank">Stephanie Falla entre las 50 mujeres más desafiantes de Centro América</a>
+ - <a href="https://noticias.ufm.edu/medicina-ufm-celebro-xv-aniversario-del-centro-de-salud-barbara/" target="_blank">Medicina UFM celebró XV aniversario del Centro de Salud Bárbara</a>
+ - <a href="https://asomate.ufm.edu" target="_blank" title="Eventos">Eventos</a>
+ - <a href="https://asomate.ufm.edu/event/curso-libre-conceptos-clave-pensamiento-tocqueville/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_sasomatewpcontentuploads201908asomate_tocqueville.png"/></a>
+ - <a href="https://asomate.ufm.edu/event/las-mujeres-arte-guatemalteco/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_sasomatewpcontentuploads201908bannerwebufm0101.png"/></a>
+ - <a href="https://asomate.ufm.edu/event/1615/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_sasomatewpcontentuploads201908htmlartemodernoufm3modulos021.png"/></a>
+ - <a href="https://asomate.ufm.edu/event/curso-libre-conceptos-clave-pensamiento-tocqueville/" target="_blank">Curso libre: Conceptos Clave en el Pensamiento de Tocqueville</a>
+ - <a href="https://asomate.ufm.edu/event/las-mujeres-arte-guatemalteco/" target="_blank">Las Mujeres en el Arte Guatemalteco</a>
+ - <a href="https://asomate.ufm.edu/event/1615/" target="_blank">Cursos libres: Historia del Arte Moderno</a>
+ - <a href="https://newmedia.ufm.edu" target="_blank" title="Newmedia">Newmedia</a>
+ - <a href="https://newmedia.ufm.edu/video/ricardo-gomes-oportunidades-para-la-politica-liberal-en-brasil/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_snewmediawpcontentuploads201909ricardo_gomes.png"/></a>
+ - <a href="https://newmedia.ufm.edu/video/first-tuesday-ufm-el-arte-del-buen-vestir/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_snewmediawpcontentuploads201909firsttuesday_buenvestir.png"/></a>
+ - <a href="https://newmedia.ufm.edu/video/homenaje-especial-en-honor-de-armando-de-la-torre/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_snewmediawpcontentuploads201909homenaje_armandodelatorre.png"/></a>
+ - <a href="https://newmedia.ufm.edu/video/ricardo-gomes-oportunidades-para-la-politica-liberal-en-brasil/" target="_blank">Ricardo Gomes, oportunidades para la política liberal en Brasil</a>
+ - <a href="https://newmedia.ufm.edu/video/first-tuesday-ufm-el-arte-del-buen-vestir/" target="_blank">First Tuesday UFM: El arte del buen vestir</a>
+ - <a href="https://newmedia.ufm.edu/video/homenaje-especial-en-honor-de-armando-de-la-torre/" target="_blank">Homenaje especial en honor de Armando de la Torre</a>
+ - <a href="https://noticias.ufm.edu/category/UFM-medios/" target="_blank" title="UFM en medios">UFM en medios</a>
+ - <a href="https://noticias.ufm.edu/bronzelens-film-festival-selecciono-cortometraje-de-pedro-pablo-herrera/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_snoticiaswpcontentuploads201907ppcinethumb.png"/></a>
+ - <a href="https://noticias.ufm.edu/luis-zelaya-the-lawyer-magazine/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_snoticiaswpcontentuploads201906luchozelayathumb.png"/></a>
+ - <a href="https://noticias.ufm.edu/cosmides-tooby-recibieron-doctorados-honorificos-la-ufm/" target="_blank"><img src="//www.ufm.edu/skins/Ufm/plugins/RssCitasFondos/img/1569196838_thumb_snoticiaswpcontentuploads201905cosmidestoobythumb.png"/></a>
+ - <a href="https://noticias.ufm.edu/bronzelens-film-festival-selecciono-cortometraje-de-pedro-pablo-herrera/" target="_blank">BronzeLens Film Festival seleccionó cortometraje de Pedro Pablo Herrera</a>
+ - <a href="https://noticias.ufm.edu/luis-zelaya-the-lawyer-magazine/" target="_blank">Luis Zelaya en The Lawyer Magazine</a>
+ - <a href="https://noticias.ufm.edu/cosmides-tooby-recibieron-doctorados-honorificos-la-ufm/" target="_blank">Cosmides y Tooby recibieron doctorados honoríficos en la UFM</a>
+ - <a data-toggle="modal" href="#myModal">Calle Manuel F. Ayau <span style="font-size:10px;">(6 Calle final),</span> zona 10</a>
+ - <a href="tel:+50223387700">(+502) 2338-7700</a>
+ - <a href="mailto:inf@ufm.edu" style="color:#333;">inf@ufm.edu</a>
+ - <a href="mailto:webmaster@ufm.edu" style="color:#333;">webmaster@ufm.edu</a>
+ - <a href="http://www.linkedin.com/edu/school?id=12868&amp;trk=tyah&amp;trkInfo=tas%3Auniversidad%20francisco%20marroqu%EDn%2Cidx%3A3-1-4" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+ - <a href="https://www.facebook.com/UFMedu" target="_blank"><i class="fa fa-facebook-square"></i></a>
+ - <a href="https://twitter.com/ufmedu" target="_blank"><i class="fa fa-twitter-square"></i></a>
+ - <a href="https://plus.google.com/u/0/+UFMedu/posts" target="_blank"><i class="fa fa-google-plus-square "></i></a>
+ - <a href="http://www.youtube.com/user/newmediaufm?feature=watch" target="_blank"><i class="fa fa-youtube"></i></a>
+ - <a href="http://www.pinterest.com/ufmedu/boards/" target="_blank"><i class="fa fa-pinterest-square"></i></a>
+ - <a class="myshare" href="#" title="Compartir"><i class="fa fa-share-alt-square" style="cursor:pointer;"></i></a>
+ - <a href="http://www.facebook.com/sharer.php?u=https://ww1.ufm.edu/&amp;t=Universidad%20Francisco%20Marroquín" target="_blank"><i class="fa fa-facebook-square"></i> <span style="font-size:12px;">Facebook</span></a>
+ - <a href="http://twitter.com/home?status=Universidad%20Francisco%20Marroquín,%20https://ww1.ufm.edu/" target="_blank"><i class="fa fa-twitter-square"></i> <span style="font-size:12px;">Twitter</span></a>
+ - <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://ww1.ufm.edu&amp;title=Universidad%20Francisco%20Marroqu%C3%ADn" target="_blank"><i class="fa fa-linkedin-square"></i> <span style="font-size:12px;">Linkedin</span></a>
+ - <a class="" href="#" onclick="ps2O8pow(); return false;" title="Soporte en línea"><i aria-hidden="true" class="fa fa-comments-o"></i></a>
+ - <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/gt/" rel="license" style="text-decoration:none;" target="_blank" title="Este obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 3.0 Guatemala.">CC: BY-NC-SA</a>
+ - <a href="https://www.ufm.edu/Aviso_Legal" target="_blank">Aviso Legal</a>
+ - <a href="https://www.ufm.edu/Política_de_Cookies" target="_blank">Política de cookies</a>
+ - <a href="https://www.ufm.edu/Políticas_de_privacidad" target="_blank">Política de privacidad</a>
+ - <a href="http://www.providesupport.com?messenger=ufmmiu">Online Chat</a>
+ - <a data-toggle="modal" href="#myModal">Calle Manuel F. Ayau <span style="font-size:10px;">(6 Calle final),</span> zona 10</a>
+ - <a href="mailto:inf@ufm.edu" style="color:#333;">inf@ufm.edu</a>
+ - <a href="mailto:webmaster@ufm.edu" style="color:#333;">webmaster@ufm.edu</a>
+ - <a href="http://www.linkedin.com/edu/school?id=12868&amp;trk=tyah&amp;trkInfo=tas%3Auniversidad%20francisco%20marroqu%EDn%2Cidx%3A3-1-4" target="_blank"><i class="fa fa-linkedin-square"></i></a>
+ - <a href="https://www.facebook.com/UFMedu" target="_blank"><i class="fa fa-facebook-square"></i></a>
+ - <a href="https://twitter.com/ufmedu" target="_blank"><i class="fa fa-twitter-square"></i></a>
+ - <a href="http://www.youtube.com/user/newmediaufm?feature=watch" target="_blank"><i class="fa fa-youtube-play"></i></a>
+ - <a href="http://www.pinterest.com/ufmedu/boards/" target="_blank"><i class="fa fa-pinterest-square"></i></a>
+ - <a class="myshare" href="#" title="Compartir"><i class="fa fa-share-alt-square" style="cursor:pointer;"></i></a>
+ - <a href="http://www.facebook.com/sharer.php?u=https://www.ufm.edu/index.php/Portal&amp;t=Portal" target="_blank"><i class="fa fa-facebook-square"></i> <span style="font-size:12px;">Facebook</span></a>
+ - <a href="http://twitter.com/home?status=Portal,%20https://www.ufm.edu/index.php/Portal" target="_blank"><i class="fa fa-twitter-square"></i> <span style="font-size:12px;">Twitter</span></a>
+ - <a href="http://www.linkedin.com/shareArticle?mini=true&amp;url=https://www.ufm.edu&amp;title=Universidad%20Francisco%20Marroqu%C3%ADn" target="_blank"><i class="fa fa-linkedin-square"></i> <span style="font-size:12px;">Linkedin</span></a>
+ - <a href="http://www.providesupport.com?messenger=ufmmiu">Online Chat</a>
+ - <a class="" href="#" onclick="ps2O8pow(); return false;" title="Soporte en línea"><i aria-hidden="true" class="fa fa-comments-o"></i></a>
+ - <a href="https://www.ufm.edu/index.php/Mapa_Campus" target="_blank">Mapa del campus</a>
+ - <a href="http://creativecommons.org/licenses/by-nc-sa/3.0/gt/" rel="license" style="text-decoration:none;" target="_blank" title="Este obra está bajo una Licencia Creative Commons Atribución-NoComercial-CompartirIgual 3.0 Guatemala.">CC: BY-NC-SA</a>
+ - <a href="https://www.ufm.edu/Aviso_Legal" target="_blank">Aviso Legal</a>
+ - <a href="https://www.ufm.edu/Política_de_Cookies" target="_blank">Política de cookies</a>
+ - <a href="https://www.ufm.edu/Políticas_de_privacidad" target="_blank">Política de privacidad</a>
+ - <a href="https://www.ufm.edu/index.php/Mapa_Campus" target="_blank"><img src="/skins/Ufm/img/xgooglemaps-ufm.jpg.pagespeed.ic.vfi5xGvw74.jpg"/></a>

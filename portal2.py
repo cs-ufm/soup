@@ -16,7 +16,7 @@ class portal:
     soup = BeautifulSoup(html_content, "html.parser")
 
     def logFileWriter(self, lines, nameOfFile):
-        file = open(f"/logs/{nameOfFile}", "w")
+        file = open(f"{nameOfFile}", "w")
         file.write(lines)
         file.close()
 
@@ -26,7 +26,7 @@ class portal:
     def checkIfThirty(self, lines, func):
         if self.getCheckIfThirty(lines):
             #self.logError(lines)
-            self.nameOfOutputLogFile = f"logs/1portal_{func}.txt"
+            self.nameOfOutputLogFile = f"1portal_{func}.txt"
             self.logFileWriter(lines, self.nameOfOutputLogFile)
             return f"Output exceeds 30 lines, sending output to: {self.nameOfOutputLogFile}"
         else:
@@ -63,14 +63,14 @@ class portal:
                     print(f"- {div}")
 
     def findHref(self):
-        self.nameFunction = "find_all_properties_that_have_href"
-        self.elementos = self.soup.find_all('a', href=True)
-        self.longitud = len(self.elementos)
-        if self.longitud > 30:
-            return  self.checkIfThirty(self.elementos, self.nameFunction)
-        else:
-            for a in self.soup.find_all('a', href=True):
-                return print("URL encontrada:", a['href'])
+        self.nameFunction = "find_all_properties_that_have_href "
+        hrefs = ""
+        for href in self.soup.find_all(href=True):
+            hrefs += f" - {href}\n"
+        return (f"GET the href and print it: {self.checkIfThirty(hrefs, self.nameFunction)} ")
+        #return print(f"find all properties that have href <{self.hrefs}>")
+
+
 
     def getUFMMailButton(self):
         self.nameFunction = "GET_href_of_UFMail_button"
@@ -114,7 +114,8 @@ print("-"*60)
 portalazo.getPhoneEmail()
 print("-"*60)
 portalazo.getUpenNavElements()
-#portalazo.findHref()
+print("-"*60)
+portalazo.findHref()
 print("-"*60)
 portalazo.getUFMMailButton()
 print("-"*60)
