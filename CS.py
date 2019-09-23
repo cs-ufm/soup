@@ -57,21 +57,36 @@ class CS:
         return ("Image downloaded")
 
     def getMetaOg(self):
+        self.nameFunction = "returns_meta_title_and_description"
         for item in self.soup.findAll('meta', {'property': 'og:title'}):
             content = item.get('content')
         for item in self.soup.findAll('meta', {'property': 'og:description'}):
             descripcion = item.get('content')
         return print(f"Título: {content}, Description:  {descripcion}")
 
+    def countACS(self):
+        self.nameFunction = "count_all_a_in_CS"
+        self.countAllA = len(self.soup.find_all('a', href=True))
+        return print(f"Total de <a> en CS: {self.countAllA}")
+
+    def countDivCS(self):
+        self.nameFunction = "count_all_div_in_CS"
+        self.countAllDiv = len(self.soup.find_all('div'))
+        return print(f"Total de <div> en CS: {self.countAllDiv}")
+
 print("3. CS")
 print("-"*60)
 csazo = CS()
 csazo.getTitle()
 print("-"*60)
-#csazo.findHrefCS()
+csazo.findHrefCS()
 print("-"*60)
-#csazo.downloadLogoFCE()
+csazo.downloadLogoFCE()
 print("-"*60)
 csazo.getMetaOg()
+print("-"*60)
+csazo.countACS()
+print("-"*60)
+csazo.countDivCS()
 
 
