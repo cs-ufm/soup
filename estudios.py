@@ -67,8 +67,13 @@ class estudios:
             for item in itemLeft.find_all('a'):
                 print("- " + item.get('href'))
 
+    def countAEst(self):
+        self.countAllA = len(self.soup.find_all('a', href=True))
+        return print(f"Count all <a>: {self.countAllA}")
 
+print("2. Estudios")
 estudiazo = estudios()
+print("-"*60)
 estudiazo.getTitle()
 print("-"*60)
 estudiazo.getUpenTopElements()
@@ -78,3 +83,5 @@ print("-"*60)
 estudiazo.displayLeftbar()
 print("-"*60)
 estudiazo.displaySocialMedia()
+print("-"*60)
+estudiazo.countAEst()

@@ -107,9 +107,9 @@ class portal:
         self.countAllA = len(self.soup.find_all('a', href=True))
         return print(f"Count all <a>: {self.countAllA}")
 
-
+print("1. Portal")
 portalazo = portal()
-
+print("-"*60)
 portalazo.getTitle()
 print("-"*60)
 portalazo.getAddress()
