@@ -62,6 +62,32 @@ class directorio :
                 count += 1
         return print(f"La cantidad de correos que inician en vocal es {count}")
 
+    def groupInAJSON(self):
+        edificios = {}
+        data = []
+        tablas = self.soup.find_all("table", {'class': 'tabla ancho100'})
+        for item in tablas[0].find_all('tr'):
+            td = item.find_all('td')
+            jsonify = []
+            if len(td) == 5:
+                building = td[4].text.strip().split(',')[0]
+                facultad = td[0].text.strip()
+                jsonify.append(building)
+                jsonify.append(facultad)
+                data.append(jsonify)
+        for element in data:
+            edificios[element[0]] = []
+        for element in data:
+            for j, k in edificios.items():
+                if j == element[0]:
+                    edificios[j].append(element[1])
+
+        #Guardar JSON
+        with open('4directorio_address.json', 'w+') as file:
+            json.dump(edificios, file, ensure_ascii = False, indent = 4)
+        shutil.move(f'4directorio_address.json', 'logs')
+        return print("Sending output to: 4directorio_address.txt")
+
     def crateCSVFileDirectory(self):
         elementosCSV = []
         tables = self.soup.find_all("table", {'class': 'tabla ancho100 col3'})
@@ -131,15 +157,17 @@ class directorio :
         w.writerow(elementosCSV)
         csvFile.close()
         shutil.move(f'4directorio_3column_tables.csv', 'logs')
-        return print("Archivo 4directorio_3column_tables.csv creado, guardado en carpeta log")
+        return print("Sending output to 4directorio_3column_tables.csv creado, guardado en carpeta log")
 
 print("="*60)
-print("4. Direcorio")
+print("4. Directorio")
 directoriazo = directorio()
 directoriazo.getTitle()
 print("-"*60)
 directoriazo.sortEmails()
 print("-"*60)
 directoriazo.vowelEmails()
+print("-"*60)
+directoriazo.groupInAJSON()
 print("-"*60)
 directoriazo.crateCSVFileDirectory()
