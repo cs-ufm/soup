@@ -86,7 +86,35 @@ class directorio :
         with open('4directorio_address.json', 'w+') as file:
             json.dump(edificios, file, ensure_ascii = False, indent = 4)
         shutil.move(f'4directorio_address.json', 'logs')
-        return print("Sending output to: 4directorio_address.txt")
+        return print("Sending output to: 4directorio_address.json")
+
+    def correlateInAJSON(self):
+        facultades = {}
+        data = []
+        tablas = self.soup.find_all("table", {'class': 'tabla ancho100'})
+        for item in tablas[1].find_all('tr'):
+            td = item.find_all('td')
+            jsonify = []
+            if len(td) == 3:
+                decano = td[1].text.strip().split(',')[0]
+                facultad = td[0].text.strip()
+                email = td[2].text.strip()
+                jsonify.append(decano)
+                jsonify.append(facultad)
+                jsonify.append(email)
+                data.append(jsonify)
+        for element in data:
+            facultades[element[0]] = []
+        for element in data:
+            for j, k in facultades.items():
+                if j == element[0]:
+                    facultades[j].append(element[1])
+
+        # Guardar JSON
+        with open('4directorio_deans.json', 'w+') as file:
+            json.dump(facultades, file, ensure_ascii=False, indent=4)
+        shutil.move(f'4directorio_deans.json', 'logs')
+        return print("Sending output to: 4directorio_deans.json")
 
     def crateCSVFileDirectory(self):
         elementosCSV = []
@@ -169,5 +197,7 @@ print("-"*60)
 directoriazo.vowelEmails()
 print("-"*60)
 directoriazo.groupInAJSON()
+print("-"*60)
+directoriazo.correlateInAJSON()
 print("-"*60)
 directoriazo.crateCSVFileDirectory()
