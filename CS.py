@@ -74,6 +74,7 @@ class CS:
         self.countAllDiv = len(self.soup.find_all('div'))
         return print(f"Total de <div> en CS: {self.countAllDiv}")
 
+print("="*60)
 print("3. CS")
 print("-"*60)
 csazo = CS()

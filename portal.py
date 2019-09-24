@@ -111,13 +111,14 @@ class portal:
         a = self.soup.find_all("a")
         csvFile = open("extra_as.csv", "w")
         w = csv.writer(csvFile)
-        for i in a:
-            data = ['Text: ' + i.get_text(), ' href: ' + i['href']]
+        for elements in a:
+            data = ['Text: ' + elements.get_text(), ' href: ' + elements['href']]
             w.writerow(data)
         csvFile.close()
         shutil.move(f'extra_as.csv', 'logs')
         return print("Archivo con texto y hrefs creado, guardado en carpeta log")
 
+print("="*60)
 print("1. Portal")
 portalazo = portal()
 print("-"*60)

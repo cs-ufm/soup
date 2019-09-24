@@ -71,6 +71,7 @@ class estudios:
         self.countAllA = len(self.soup.find_all('a', href=True))
         return print(f"Count all <a>: {self.countAllA}")
 
+print("="*60)
 print("2. Estudios")
 estudiazo = estudios()
 print("-"*60)

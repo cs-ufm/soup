@@ -62,6 +62,20 @@ class directorio :
                 count += 1
         return print(f"La cantidad de correos que inician en vocal es {count}")
 
+    def crateCSVFileDirectory(self):
+        tables = self.soup.find_all("table", {'class': 'tabla ancho100 col3'})
+        #for elementos in tables:
+          #  rawData = elementos.find_all('td')
+        csvFile = open("4directorio_3column_tables.csv", "w")
+        w = csv.writer(csvFile)
+        for elements in tables:
+            data = ['Entity: ' + elements.get_text(), ' FullName: ' + elements['href'], ' Email: ' + elements['mailto']]
+            w.writerow(data)
+        csvFile.close()
+        shutil.move(f'4directorio_3column_tables.csv', 'logs')
+        return print("Archivo con texto y hrefs creado, guardado en carpeta log")
+
+print("="*60)
 print("4. Direcorio")
 directoriazo = directorio()
 directoriazo.getTitle()
@@ -69,3 +83,5 @@ print("-"*60)
 directoriazo.sortEmails()
 print("-"*60)
 directoriazo.vowelEmails()
+print("-"*60)
+directoriazo.crateCSVFileDirectory()
