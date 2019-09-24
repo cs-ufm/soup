@@ -282,7 +282,7 @@ using ["https://www.ufm.edu/Directorio"](https://www.ufm.edu/Directorio)
 
 
 ## 5. Extra
-- [ ] Complete Dockerfile
+- [x] Complete Dockerfile
 - [ ] Create README section for Dockerfile under [`Usage Dockerfile`](#usage-dockerfile)
 - [ ] Add CI to your own repo.
 
@@ -307,9 +307,41 @@ In order to start your project:
 - [x] everytime you complete an "item" make sure to mark it as done [x]
 
 ## Usage Dockerfile
-```bash
-Put your Docker build/run/etc commands here
+
+#### Container Parameters
+
+First, you build the image with the command shown below.
+
+```shell
+docker build --rm -f "soup\Dockerfile" -t soup:latest soup
 ```
+
+Then you run the newly created container with the following command.
+
+```shell
+docker run soup:latest
+```
+
+If is necessary, get a shell started in the container too
+
+```shell
+docker run soup:latest bash
+```
+
+#### Environment Variables
+
+* `FROM` - Indicates that the server python image will be used as the base image
+* `WORKDIR` - Sets a working directory for other Dockerfile instructions
+* `COPY` - Copies files and directories to the container's file system
+* `RUN` - Specifies commands to be run, and captured into the new container image
+* `CMD` - Sets the default command to be run when deploying an instance of the container image
+
+
+## Built With
+
+* python v2.7.15+
+* docker v19.03.1
+* bs4
 
 ---
 # Delivery
