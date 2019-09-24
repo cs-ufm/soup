@@ -89,9 +89,9 @@ class directorio :
         return print("Sending output to: 4directorio_address.json")
 
     def correlateInAJSON(self):
-        facultades = {}
+        directores = {}
         data = []
-        tablas = self.soup.find_all("table", {'class': 'tabla ancho100'})
+        tablas = self.soup.find_all("table", {'class': 'tabla ancho100 col3'})
         for item in tablas[1].find_all('tr'):
             td = item.find_all('td')
             jsonify = []
@@ -104,15 +104,16 @@ class directorio :
                 jsonify.append(email)
                 data.append(jsonify)
         for element in data:
-            facultades[element[0]] = []
+            directores[element[0]] = []
         for element in data:
-            for j, k in facultades.items():
+            for j, k in directores.items():
                 if j == element[0]:
-                    facultades[j].append(element[1])
+                    directores[j].append(element[1])
+                    directores[j].append(element[2])
 
         # Guardar JSON
         with open('4directorio_deans.json', 'w+') as file:
-            json.dump(facultades, file, ensure_ascii=False, indent=4)
+            json.dump(directores, file, ensure_ascii=False, indent=4)
         shutil.move(f'4directorio_deans.json', 'logs')
         return print("Sending output to: 4directorio_deans.json")
 
