@@ -252,7 +252,7 @@ using ["https://www.ufm.edu/Directorio"](https://www.ufm.edu/Directorio)
 }
 ```
 
-- [ ] Try to correlate in a JSON Faculty Dean and Directors, and dump it to `logs/4directorio_deans.json`
+- [x] Try to correlate in a JSON Faculty Dean and Directors, and dump it to `logs/4directorio_deans.json`
 
 ```javascript
 {

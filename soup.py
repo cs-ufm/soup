@@ -9,7 +9,7 @@ def main(argv):
    programa = len(sys.argv)
 
    try:
-      print("My name is Abner")
+      print(F"My name is {MYNAME}")
       if (programa == 1):
           os.system("python portal.py")
           os.system("python estudios.py")
