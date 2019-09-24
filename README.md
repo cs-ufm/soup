@@ -145,7 +145,7 @@ python3 soup.py 3
 
 <br>
 
-- [ ] **NOTE** If for some reason the result exceeds 30 lines you will display `"Output exceeds 30 lines, sending output to: <logfile>"` and send the output to a text file inside logs/ , example format:
+- [x] **NOTE** If for some reason the result exceeds 30 lines you will display `"Output exceeds 30 lines, sending output to: <logfile>"` and send the output to a text file inside logs/ , example format:
 
 ```bash
 $ python3 soup.py 1
@@ -184,7 +184,7 @@ using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 
 ### 1.1 Extra points
 
-- [ ]  From all (&lt;a>) Create a csv file (`logs/extra_as.csv`) with the following columns: Text, href
+- [x]  From all (&lt;a>) Create a csv file (`logs/extra_as.csv`) with the following columns: Text, href
 
 
 **example:**

@@ -107,6 +107,17 @@ class portal:
         self.countAllA = len(self.soup.find_all('a', href=True))
         return print(f"Count all <a>: {self.countAllA}")
 
+    def crateCSVFile(self):
+        a = self.soup.find_all("a")
+        csvFile = open("extra_as.csv", "w")
+        w = csv.writer(csvFile)
+        for i in a:
+            data = ['Text: ' + i.get_text(), ' href: ' + i['href']]
+            w.writerow(data)
+        csvFile.close()
+        shutil.move(f'extra_as.csv', 'logs')
+        return print("Archivo con texto y hrefs creado, guardado en carpeta log")
+
 print("1. Portal")
 portalazo = portal()
 print("-"*60)
@@ -127,3 +138,5 @@ print("-"*60)
 portalazo.getHrefImg()
 print("-"*60)
 portalazo.countA()
+print("-"*60)
+portalazo.crateCSVFile()
