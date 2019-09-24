@@ -145,7 +145,7 @@ python3 soup.py 3
 
 <br>
 
-- [ ] **NOTE** If for some reason the result exceeds 30 lines you will display `"Output exceeds 30 lines, sending output to: <logfile>"` and send the output to a text file inside logs/ , example format:
+- [x] **NOTE** If for some reason the result exceeds 30 lines you will display `"Output exceeds 30 lines, sending output to: <logfile>"` and send the output to a text file inside logs/ , example format:
 
 ```bash
 $ python3 soup.py 1
@@ -171,20 +171,20 @@ Universidad Francisco Marroquín
 ## 1. Portal
 using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 
-- [ ] GET the title and print it
-- [ ] GET the Complete Address of UFM
-- [ ] GET the phone number and info email
-- [ ] GET all item that are part of the upper nav menu (id: menu-table)
-- [ ] find all properties that have href (link to somewhere)
-- [ ] GET href of "UFMail" button
-- [ ] GET href "MiU" button.
-- [ ] get hrefs of all &lt;img>
-- [ ] count all &lt;a>
+- [x] GET the title and print it
+- [x] GET the Complete Address of UFM
+- [x] GET the phone number and info email
+- [x] GET all item that are part of the upper nav menu (id: menu-table)
+- [x] find all properties that have href (link to somewhere)
+- [x] GET href of "UFMail" button
+- [x] GET href "MiU" button.
+- [x] get hrefs of all &lt;img>
+- [x] count all &lt;a>
 
 
 ### 1.1 Extra points
 
-- [ ]  From all (&lt;a>) Create a csv file (`logs/extra_as.csv`) with the following columns: Text, href
+- [x]  From all (&lt;a>) Create a csv file (`logs/extra_as.csv`) with the following columns: Text, href
 
 
 **example:**
@@ -202,31 +202,31 @@ using ["http://ufm.edu/Portal"](http://ufm.edu/Portal)
 ## 2. Estudios
 using ["http://ufm.edu/Estudios"](http://ufm.edu/Estudios)
 
-- [ ] now navigate to  /Estudios (better if you obtain href from the DOM)
-- [ ] display all items from "topmenu" (8 in total)
-- [ ] display ALL "Estudios" (Doctorados/Maestrias/Posgrados/Licenciaturas/Baccalaureus)
-- [ ] display from "leftbar" all &lt;li> items (4 in total)
-- [ ] get and display all available social media with its links (href) "class=social pull-right"
-- [ ] count all &lt;a> (just display the count)
+- [x] now navigate to  /Estudios (better if you obtain href from the DOM)
+- [x] display all items from "topmenu" (8 in total)
+- [x] display ALL "Estudios" (Doctorados/Maestrias/Posgrados/Licenciaturas/Baccalaureus)
+- [x] display from "leftbar" all &lt;li> items (4 in total)
+- [x] get and display all available social media with its links (href) "class=social pull-right"
+- [x] count all &lt;a> (just display the count)
 
 
 ## 3. CS
 using ["https://fce.ufm.edu/carrera/cs/"](https://fce.ufm.edu/carrera/cs/)
 
-- [ ] GET title
-- [ ] GET and display the href
-- [ ] Download the "FACULTAD de CIENCIAS ECONOMICAS" logo. (you need to obtain the link dynamically)
-- [ ] GET following &lt;meta>: "title", "description" ("og")
-- [ ] count all &lt;a> (just display the count)
-- [ ] count all &lt;div> (just display the count)
+- [x] GET title
+- [x] GET and display the href
+- [x] Download the "FACULTAD de CIENCIAS ECONOMICAS" logo. (you need to obtain the link dynamically)
+- [x] GET following &lt;meta>: "title", "description" ("og")
+- [x] count all &lt;a> (just display the count)
+- [x] count all &lt;div> (just display the count)
 
 
 ## 4. Directorio
 using ["https://www.ufm.edu/Directorio"](https://www.ufm.edu/Directorio)
 
-- [ ] Sort all emails alphabetically (`href="mailto:arquitectura@ufm.edu"`) in a list, dump it to logs/4directorio_emails.txt
-- [ ] Count all emails that start with a vowel. (just display the count)
-- [ ] Group in a JSON all rows that have `Same Address` (dont use Room number) as address, dump it to logs/4directorio_address.json
+- [x] Sort all emails alphabetically (`href="mailto:arquitectura@ufm.edu"`) in a list, dump it to logs/4directorio_emails.txt
+- [x] Count all emails that start with a vowel. (just display the count)
+- [x] Group in a JSON all rows that have `Same Address` (dont use Room number) as address, dump it to logs/4directorio_address.json
 
 
 ```javascript
@@ -252,7 +252,7 @@ using ["https://www.ufm.edu/Directorio"](https://www.ufm.edu/Directorio)
 }
 ```
 
-- [ ] Try to correlate in a JSON Faculty Dean and Directors, and dump it to `logs/4directorio_deans.json`
+- [x] Try to correlate in a JSON Faculty Dean and Directors, and dump it to `logs/4directorio_deans.json`
 
 ```javascript
 {
@@ -272,7 +272,7 @@ using ["https://www.ufm.edu/Directorio"](https://www.ufm.edu/Directorio)
 }
 ```
 
-- [ ] GET the directory of all 3 column table and generate a CSV with these columns (Entity,FullName, Email), and dump it to `logs/4directorio_3column_tables.csv`
+- [x] GET the directory of all 3 column table and generate a CSV with these columns (Entity,FullName, Email), and dump it to `logs/4directorio_3column_tables.csv`
 
 | Entity        	| FullName                	| Email            	|
 |---------------	|-------------------------	|------------------	|
@@ -282,9 +282,9 @@ using ["https://www.ufm.edu/Directorio"](https://www.ufm.edu/Directorio)
 
 
 ## 5. Extra
-- [ ] Complete Dockerfile
-- [ ] Create README section for Dockerfile under [`Usage Dockerfile`](#usage-dockerfile)
-- [ ] Add CI to your own repo.
+- [x] Complete Dockerfile
+- [x] Create README section for Dockerfile under [`Usage Dockerfile`](#usage-dockerfile)
+- [x] Add CI to your own repo.
 
 
 ---
@@ -307,9 +307,41 @@ In order to start your project:
 - [x] everytime you complete an "item" make sure to mark it as done [x]
 
 ## Usage Dockerfile
-```bash
-Put your Docker build/run/etc commands here
+
+#### Container Parameters
+
+First, you build the image with the command shown below.
+
+```shell
+docker build --rm -f "soup\Dockerfile" -t soup:latest soup
 ```
+
+Then you run the newly created container with the following command.
+
+```shell
+docker run soup:latest
+```
+
+If is necessary, get a shell started in the container too
+
+```shell
+docker run soup:latest bash
+```
+
+#### Environment Variables
+
+* `FROM` - Indicates that the server python image will be used as the base image
+* `WORKDIR` - Sets a working directory for other Dockerfile instructions
+* `COPY` - Copies files and directories to the container's file system
+* `RUN` - Specifies commands to be run, and captured into the new container image
+* `CMD` - Sets the default command to be run when deploying an instance of the container image
+
+
+### Built With
+
+* python v2.7.15+
+* docker v19.03.1
+* bs4
 
 ---
 # Delivery
