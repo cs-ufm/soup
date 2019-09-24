@@ -63,17 +63,75 @@ class directorio :
         return print(f"La cantidad de correos que inician en vocal es {count}")
 
     def crateCSVFileDirectory(self):
+        elementosCSV = []
         tables = self.soup.find_all("table", {'class': 'tabla ancho100 col3'})
         #for elementos in tables:
           #  rawData = elementos.find_all('td')
+
+        # for num in tables:
+        #     #cont = 0
+        #     cont = len(num)-1
+        #     for datos in range(tables[cont].find_all('tr')):
+        #         td = datos.find_all('td')
+        #         temp = []
+        #         if len(td) == 3:
+        #             decano = td[1].text.strip().split(',')[0]
+        #             facultad = td[0].text.strip()
+        #             email = td[2].text.strip()
+        #             temp.append(facultad)
+        #             temp.append(decano)
+        #             temp.append(email)
+        #             elementosCSV.append(temp)
+        #             #cont +=1
+
+        # Consejo directivo
+        for datos in tables[0].find_all('tr'):
+            td = datos.find_all('td')
+            temp = []
+            if len(td) == 3:
+                decano = td[1].text.strip().split(',')[0]
+                facultad = td[0].text.strip()
+                email = td[2].text.strip()
+                temp.append(facultad)
+                temp.append(decano)
+                temp.append(email)
+                elementosCSV.append(temp)
+
+        # Decanos y directores
+        for datos in tables[1].find_all('tr'):
+            td = datos.find_all('td')
+            temp = []
+            if len(td) == 3:
+                decano = td[1].text.strip().split(',')[0]
+                facultad = td[0].text.strip()
+                email = td[2].text.strip()
+                temp.append(facultad)
+                temp.append(decano)
+                temp.append(email)
+                elementosCSV.append(temp)
+
+        # Directores de otras dependencias
+        for datos in tables[2].find_all('tr'):
+            td = datos.find_all('td')
+            temp = []
+            if len(td) == 3:
+                decano = td[1].text.strip().split(',')[0]
+                facultad = td[0].text.strip()
+                email = td[2].text.strip()
+                temp.append(facultad)
+                temp.append(decano)
+                temp.append(email)
+                elementosCSV.append(temp)
+
+        #Guardar CSV
         csvFile = open("4directorio_3column_tables.csv", "w")
         w = csv.writer(csvFile)
-        for elements in tables:
-            data = ['Entity: ' + elements.get_text(), ' FullName: ' + elements['href'], ' Email: ' + elements['mailto']]
-            w.writerow(data)
+        #for elements in tables:
+            #data = ['Entity: ' + elements.get_text(), ' FullName: ' + elements['href'], ' Email: ' + elements['mailto']]
+        w.writerow(elementosCSV)
         csvFile.close()
         shutil.move(f'4directorio_3column_tables.csv', 'logs')
-        return print("Archivo con texto y hrefs creado, guardado en carpeta log")
+        return print("Archivo 4directorio_3column_tables.csv creado, guardado en carpeta log")
 
 print("="*60)
 print("4. Direcorio")
