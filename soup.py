@@ -1,35 +1,36 @@
-#!/usr/bin/env python3
-from bs4 import BeautifulSoup
-import requests,sys
-import csv
-import json
-import  time
+import sys, getopt
+import os
 
-url="http://ufm.edu/Portal"
-# Make a GET request to fetch the raw HTML content
-try:
-    html_content = requests.get(url).text
-except:
-    print(f"unable to get {url}")
-    sys.exit(1)
+MYNAME = "Abner"
 
-# Parse the html content, this is the Magic ;)
-soup = BeautifulSoup(html_content, "html.parser")
+def main(argv):
+   inputfile = ''
+   outputfile = ''
+   programa = len(sys.argv)
 
-# print if needed, gets too noisy
-#print(soup.prettify())
+   try:
+      print("My name is Abner")
+      if (programa == 1):
+          os.system("python portal.py")
+          os.system("python estudios.py")
+          os.system("python CS.py")
+          os.system("python directorio.py")
+      else:
+          ejecutar = int(sys.argv[1])
+          if(ejecutar == 1):
+              os.system("python portal.py")
+          elif(ejecutar == 2):
+              os.system("python estudios.py")
+          elif(ejecutar == 3):
+              os.system("python CS.py")
+          elif(ejecutar == 4):
+              os.system("python directorio.py")
+          else:
+              print("No se indico el programa a ejecutar")
 
-print(soup.title)
-print(soup.title.string)
+   except getopt.GetoptError:
+      sys.exit(2)
 
-#for div in soup.find_all("div"):
-  #  print(div)
-   # print("--------------------------")
 
-def href():
-    hrefs= ""
-    for href in soup.find_all(href=True):
-        hrefs += f" - {href}\n"
-    print(f"GET the href and print it: {self.log.logIfThirty(hrefs)} ")
-
-href()
+if __name__ == "__main__":
+   main(sys.argv)
